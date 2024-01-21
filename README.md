@@ -20,7 +20,9 @@ ann_id遵循原本标注，但在[label_info.json](configs/label_info.json)中�
 - obj: 80 (coco-ins)
 
 # 标注格式
+
 ## image
+
 ```json
 {
     'info': [...], 
@@ -38,6 +40,7 @@ ann_id遵循原本标注，但在[label_info.json](configs/label_info.json)中�
 ```
 
 ## instance
+
 ```json
 {
     'info': [...], 
@@ -61,6 +64,7 @@ ann_id遵循原本标注，但在[label_info.json](configs/label_info.json)中�
 ```
 
 ## relation
+
 ```json
 {
     'info': [...], 
@@ -101,5 +105,7 @@ instance/person_keypoints预测的转化。
 提取文本嵌入的脚本。
 
 # 引用
-[Visual Semantic Role Labeling](http://arxiv.org/abs/1505.04474)
-[https://github.com/s-gupta/v-coco](https://github.com/s-gupta/v-coco)
+
+论文: [Visual Semantic Role Labeling](http://arxiv.org/abs/1505.04474)
+
+code: [https://github.com/s-gupta/v-coco](https://github.com/s-gupta/v-coco)
