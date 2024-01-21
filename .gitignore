@@ -1,9 +1,10 @@
+/annotations/*
+/correletion/*
 /features/*
 /images/*
 /proposals/*
 /text_embed/*
-/correletion/*
-/annotations/*
+!*.gitkeep
 
 # IDE目录
 /.vscode
