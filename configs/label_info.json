@@ -1,0 +1,7736 @@
+{
+    "ins_info": {
+        "1": {
+            "name": "person",
+            "text": "a photo of a person",
+            "valid_id": 0,
+            "ann_id": 1,
+            "counts_train": 20573,
+            "counts_test": 19058
+        },
+        "2": {
+            "name": "bicycle",
+            "text": "a photo of a bicycle",
+            "valid_id": 1,
+            "ann_id": 2,
+            "counts_train": 357,
+            "counts_test": 291
+        },
+        "3": {
+            "name": "car",
+            "text": "a photo of a car",
+            "valid_id": 2,
+            "ann_id": 3,
+            "counts_train": 1524,
+            "counts_test": 1343
+        },
+        "4": {
+            "name": "motorcycle",
+            "text": "a photo of a motorcycle",
+            "valid_id": 3,
+            "ann_id": 4,
+            "counts_train": 211,
+            "counts_test": 306
+        },
+        "5": {
+            "name": "airplane",
+            "text": "a photo of an airplane",
+            "valid_id": 4,
+            "ann_id": 5,
+            "counts_train": 22,
+            "counts_test": 16
+        },
+        "6": {
+            "name": "bus",
+            "text": "a photo of a bus",
+            "valid_id": 5,
+            "ann_id": 6,
+            "counts_train": 74,
+            "counts_test": 103
+        },
+        "7": {
+            "name": "train",
+            "text": "a photo of a train",
+            "valid_id": 6,
+            "ann_id": 7,
+            "counts_train": 51,
+            "counts_test": 35
+        },
+        "8": {
+            "name": "truck",
+            "text": "a photo of a truck",
+            "valid_id": 7,
+            "ann_id": 8,
+            "counts_train": 211,
+            "counts_test": 219
+        },
+        "9": {
+            "name": "boat",
+            "text": "a photo of a boat",
+            "valid_id": 8,
+            "ann_id": 9,
+            "counts_train": 154,
+            "counts_test": 122
+        },
+        "10": {
+            "name": "traffic light",
+            "text": "a photo of a traffic light",
+            "valid_id": 9,
+            "ann_id": 10,
+            "counts_train": 288,
+            "counts_test": 228
+        },
+        "11": {
+            "name": "fire hydrant",
+            "text": "a photo of a fire hydrant",
+            "valid_id": 10,
+            "ann_id": 11,
+            "counts_train": 26,
+            "counts_test": 28
+        },
+        "13": {
+            "name": "stop sign",
+            "text": "a photo of a stop sign",
+            "valid_id": 11,
+            "ann_id": 13,
+            "counts_train": 19,
+            "counts_test": 22
+        },
+        "14": {
+            "name": "parking meter",
+            "text": "a photo of a parking meter",
+            "valid_id": 12,
+            "ann_id": 14,
+            "counts_train": 18,
+            "counts_test": 10
+        },
+        "15": {
+            "name": "bench",
+            "text": "a photo of a bench",
+            "valid_id": 13,
+            "ann_id": 15,
+            "counts_train": 617,
+            "counts_test": 539
+        },
+        "16": {
+            "name": "bird",
+            "text": "a photo of a bird",
+            "valid_id": 14,
+            "ann_id": 16,
+            "counts_train": 130,
+            "counts_test": 104
+        },
+        "17": {
+            "name": "cat",
+            "text": "a photo of a cat",
+            "valid_id": 15,
+            "ann_id": 17,
+            "counts_train": 87,
+            "counts_test": 51
+        },
+        "18": {
+            "name": "dog",
+            "text": "a photo of a dog",
+            "valid_id": 16,
+            "ann_id": 18,
+            "counts_train": 161,
+            "counts_test": 134
+        },
+        "19": {
+            "name": "horse",
+            "text": "a photo of a horse",
+            "valid_id": 17,
+            "ann_id": 19,
+            "counts_train": 173,
+            "counts_test": 215
+        },
+        "20": {
+            "name": "sheep",
+            "text": "a photo of a sheep",
+            "valid_id": 18,
+            "ann_id": 20,
+            "counts_train": 30,
+            "counts_test": 22
+        },
+        "21": {
+            "name": "cow",
+            "text": "a photo of a cow",
+            "valid_id": 19,
+            "ann_id": 21,
+            "counts_train": 47,
+            "counts_test": 18
+        },
+        "22": {
+            "name": "elephant",
+            "text": "a photo of an elephant",
+            "valid_id": 20,
+            "ann_id": 22,
+            "counts_train": 65,
+            "counts_test": 74
+        },
+        "23": {
+            "name": "bear",
+            "text": "a photo of a bear",
+            "valid_id": 21,
+            "ann_id": 23,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "24": {
+            "name": "zebra",
+            "text": "a photo of a zebra",
+            "valid_id": 22,
+            "ann_id": 24,
+            "counts_train": 2,
+            "counts_test": 1
+        },
+        "25": {
+            "name": "giraffe",
+            "text": "a photo of a giraffe",
+            "valid_id": 23,
+            "ann_id": 25,
+            "counts_train": 7,
+            "counts_test": 5
+        },
+        "27": {
+            "name": "backpack",
+            "text": "a photo of a backpack",
+            "valid_id": 24,
+            "ann_id": 27,
+            "counts_train": 798,
+            "counts_test": 633
+        },
+        "28": {
+            "name": "umbrella",
+            "text": "a photo of a umbrella",
+            "valid_id": 25,
+            "ann_id": 28,
+            "counts_train": 383,
+            "counts_test": 448
+        },
+        "31": {
+            "name": "handbag",
+            "text": "a photo of a handbag",
+            "valid_id": 26,
+            "ann_id": 31,
+            "counts_train": 922,
+            "counts_test": 809
+        },
+        "32": {
+            "name": "tie",
+            "text": "a photo of a tie",
+            "valid_id": 27,
+            "ann_id": 32,
+            "counts_train": 342,
+            "counts_test": 349
+        },
+        "33": {
+            "name": "suitcase",
+            "text": "a photo of a suitcase",
+            "valid_id": 28,
+            "ann_id": 33,
+            "counts_train": 571,
+            "counts_test": 516
+        },
+        "34": {
+            "name": "frisbee",
+            "text": "a photo of a frisbee",
+            "valid_id": 29,
+            "ann_id": 34,
+            "counts_train": 511,
+            "counts_test": 411
+        },
+        "35": {
+            "name": "skis",
+            "text": "a photo of a skis",
+            "valid_id": 30,
+            "ann_id": 35,
+            "counts_train": 833,
+            "counts_test": 761
+        },
+        "36": {
+            "name": "snowboard",
+            "text": "a photo of a snowboard",
+            "valid_id": 31,
+            "ann_id": 36,
+            "counts_train": 682,
+            "counts_test": 487
+        },
+        "37": {
+            "name": "sports ball",
+            "text": "a photo of a sports ball",
+            "valid_id": 32,
+            "ann_id": 37,
+            "counts_train": 623,
+            "counts_test": 619
+        },
+        "38": {
+            "name": "kite",
+            "text": "a photo of a kite",
+            "valid_id": 33,
+            "ann_id": 38,
+            "counts_train": 104,
+            "counts_test": 85
+        },
+        "39": {
+            "name": "baseball bat",
+            "text": "a photo of a baseball bat",
+            "valid_id": 34,
+            "ann_id": 39,
+            "counts_train": 178,
+            "counts_test": 159
+        },
+        "40": {
+            "name": "baseball glove",
+            "text": "a photo of a baseball glove",
+            "valid_id": 35,
+            "ann_id": 40,
+            "counts_train": 300,
+            "counts_test": 272
+        },
+        "41": {
+            "name": "skateboard",
+            "text": "a photo of a skateboard",
+            "valid_id": 36,
+            "ann_id": 41,
+            "counts_train": 854,
+            "counts_test": 645
+        },
+        "42": {
+            "name": "surfboard",
+            "text": "a photo of a surfboard",
+            "valid_id": 37,
+            "ann_id": 42,
+            "counts_train": 826,
+            "counts_test": 838
+        },
+        "43": {
+            "name": "tennis racket",
+            "text": "a photo of a tennis racket",
+            "valid_id": 38,
+            "ann_id": 43,
+            "counts_train": 348,
+            "counts_test": 351
+        },
+        "44": {
+            "name": "bottle",
+            "text": "a photo of a bottle",
+            "valid_id": 39,
+            "ann_id": 44,
+            "counts_train": 998,
+            "counts_test": 886
+        },
+        "46": {
+            "name": "wine glass",
+            "text": "a photo of a wine glass",
+            "valid_id": 40,
+            "ann_id": 46,
+            "counts_train": 511,
+            "counts_test": 404
+        },
+        "47": {
+            "name": "cup",
+            "text": "a photo of a cup",
+            "valid_id": 41,
+            "ann_id": 47,
+            "counts_train": 1303,
+            "counts_test": 1150
+        },
+        "48": {
+            "name": "fork",
+            "text": "a photo of a fork",
+            "valid_id": 42,
+            "ann_id": 48,
+            "counts_train": 349,
+            "counts_test": 254
+        },
+        "49": {
+            "name": "knife",
+            "text": "a photo of a knife",
+            "valid_id": 43,
+            "ann_id": 49,
+            "counts_train": 473,
+            "counts_test": 371
+        },
+        "50": {
+            "name": "spoon",
+            "text": "a photo of a spoon",
+            "valid_id": 44,
+            "ann_id": 50,
+            "counts_train": 294,
+            "counts_test": 229
+        },
+        "51": {
+            "name": "bowl",
+            "text": "a photo of a bowl",
+            "valid_id": 45,
+            "ann_id": 51,
+            "counts_train": 470,
+            "counts_test": 426
+        },
+        "52": {
+            "name": "banana",
+            "text": "a photo of a banana",
+            "valid_id": 46,
+            "ann_id": 52,
+            "counts_train": 156,
+            "counts_test": 148
+        },
+        "53": {
+            "name": "apple",
+            "text": "a photo of an apple",
+            "valid_id": 47,
+            "ann_id": 53,
+            "counts_train": 84,
+            "counts_test": 48
+        },
+        "54": {
+            "name": "sandwich",
+            "text": "a photo of a sandwich",
+            "valid_id": 48,
+            "ann_id": 54,
+            "counts_train": 146,
+            "counts_test": 144
+        },
+        "55": {
+            "name": "orange",
+            "text": "a photo of an orange",
+            "valid_id": 49,
+            "ann_id": 55,
+            "counts_train": 50,
+            "counts_test": 54
+        },
+        "56": {
+            "name": "broccoli",
+            "text": "a photo of a broccoli",
+            "valid_id": 50,
+            "ann_id": 56,
+            "counts_train": 65,
+            "counts_test": 43
+        },
+        "57": {
+            "name": "carrot",
+            "text": "a photo of a carrot",
+            "valid_id": 51,
+            "ann_id": 57,
+            "counts_train": 130,
+            "counts_test": 61
+        },
+        "58": {
+            "name": "hot dog",
+            "text": "a photo of a hot dog",
+            "valid_id": 52,
+            "ann_id": 58,
+            "counts_train": 126,
+            "counts_test": 119
+        },
+        "59": {
+            "name": "pizza",
+            "text": "a photo of a pizza",
+            "valid_id": 53,
+            "ann_id": 59,
+            "counts_train": 328,
+            "counts_test": 288
+        },
+        "60": {
+            "name": "donut",
+            "text": "a photo of a donut",
+            "valid_id": 54,
+            "ann_id": 60,
+            "counts_train": 253,
+            "counts_test": 186
+        },
+        "61": {
+            "name": "cake",
+            "text": "a photo of a cake",
+            "valid_id": 55,
+            "ann_id": 61,
+            "counts_train": 358,
+            "counts_test": 295
+        },
+        "62": {
+            "name": "chair",
+            "text": "a photo of a chair",
+            "valid_id": 56,
+            "ann_id": 62,
+            "counts_train": 2720,
+            "counts_test": 2554
+        },
+        "63": {
+            "name": "couch",
+            "text": "a photo of a couch",
+            "valid_id": 57,
+            "ann_id": 63,
+            "counts_train": 234,
+            "counts_test": 209
+        },
+        "64": {
+            "name": "potted plant",
+            "text": "a photo of a potted plant",
+            "valid_id": 58,
+            "ann_id": 64,
+            "counts_train": 268,
+            "counts_test": 249
+        },
+        "65": {
+            "name": "bed",
+            "text": "a photo of a bed",
+            "valid_id": 59,
+            "ann_id": 65,
+            "counts_train": 296,
+            "counts_test": 256
+        },
+        "67": {
+            "name": "dining table",
+            "text": "a photo of a dining table",
+            "valid_id": 60,
+            "ann_id": 67,
+            "counts_train": 946,
+            "counts_test": 795
+        },
+        "70": {
+            "name": "toilet",
+            "text": "a photo of a toilet",
+            "valid_id": 61,
+            "ann_id": 70,
+            "counts_train": 14,
+            "counts_test": 19
+        },
+        "72": {
+            "name": "tv",
+            "text": "a photo of a tv",
+            "valid_id": 62,
+            "ann_id": 72,
+            "counts_train": 214,
+            "counts_test": 254
+        },
+        "73": {
+            "name": "laptop",
+            "text": "a photo of a laptop",
+            "valid_id": 63,
+            "ann_id": 73,
+            "counts_train": 775,
+            "counts_test": 770
+        },
+        "74": {
+            "name": "mouse",
+            "text": "a photo of a mouse",
+            "valid_id": 64,
+            "ann_id": 74,
+            "counts_train": 107,
+            "counts_test": 121
+        },
+        "75": {
+            "name": "remote",
+            "text": "a photo of a remote",
+            "valid_id": 65,
+            "ann_id": 75,
+            "counts_train": 179,
+            "counts_test": 157
+        },
+        "76": {
+            "name": "keyboard",
+            "text": "a photo of a keyboard",
+            "valid_id": 66,
+            "ann_id": 76,
+            "counts_train": 164,
+            "counts_test": 125
+        },
+        "77": {
+            "name": "cell phone",
+            "text": "a photo of a cell phone",
+            "valid_id": 67,
+            "ann_id": 77,
+            "counts_train": 657,
+            "counts_test": 601
+        },
+        "78": {
+            "name": "microwave",
+            "text": "a photo of a microwave",
+            "valid_id": 68,
+            "ann_id": 78,
+            "counts_train": 26,
+            "counts_test": 20
+        },
+        "79": {
+            "name": "oven",
+            "text": "a photo of an oven",
+            "valid_id": 69,
+            "ann_id": 79,
+            "counts_train": 45,
+            "counts_test": 47
+        },
+        "80": {
+            "name": "toaster",
+            "text": "a photo of a toaster",
+            "valid_id": 70,
+            "ann_id": 80,
+            "counts_train": 6,
+            "counts_test": 3
+        },
+        "81": {
+            "name": "sink",
+            "text": "a photo of a sink",
+            "valid_id": 71,
+            "ann_id": 81,
+            "counts_train": 41,
+            "counts_test": 42
+        },
+        "82": {
+            "name": "refrigerator",
+            "text": "a photo of a refrigerator",
+            "valid_id": 72,
+            "ann_id": 82,
+            "counts_train": 51,
+            "counts_test": 42
+        },
+        "84": {
+            "name": "book",
+            "text": "a photo of a book",
+            "valid_id": 73,
+            "ann_id": 84,
+            "counts_train": 1082,
+            "counts_test": 932
+        },
+        "85": {
+            "name": "clock",
+            "text": "a photo of a clock",
+            "valid_id": 74,
+            "ann_id": 85,
+            "counts_train": 111,
+            "counts_test": 108
+        },
+        "86": {
+            "name": "vase",
+            "text": "a photo of a vase",
+            "valid_id": 75,
+            "ann_id": 86,
+            "counts_train": 94,
+            "counts_test": 83
+        },
+        "87": {
+            "name": "scissors",
+            "text": "a photo of a scissors",
+            "valid_id": 76,
+            "ann_id": 87,
+            "counts_train": 53,
+            "counts_test": 64
+        },
+        "88": {
+            "name": "teddy bear",
+            "text": "a photo of a teddy bear",
+            "valid_id": 77,
+            "ann_id": 88,
+            "counts_train": 105,
+            "counts_test": 99
+        },
+        "89": {
+            "name": "hair drier",
+            "text": "a photo of a hair drier",
+            "valid_id": 78,
+            "ann_id": 89,
+            "counts_train": 4,
+            "counts_test": 1
+        },
+        "90": {
+            "name": "toothbrush",
+            "text": "a photo of a toothbrush",
+            "valid_id": 79,
+            "ann_id": 90,
+            "counts_train": 14,
+            "counts_test": 13
+        },
+        "0": {
+            "name": "__background__",
+            "text": "a photo of nothing",
+            "valid_id": 80,
+            "ann_id": 0,
+            "counts_train": 4534,
+            "counts_test": 3959
+        }
+    },
+    "rel_info": {
+        "1": {
+            "name": "hold obj",
+            "valid_id": 0,
+            "ann_id": 1,
+            "counts_train": 4001,
+            "counts_test": 3608
+        },
+        "3": {
+            "name": "sit instr",
+            "valid_id": 1,
+            "ann_id": 3,
+            "counts_train": 1989,
+            "counts_test": 1916
+        },
+        "4": {
+            "name": "ride instr",
+            "valid_id": 2,
+            "ann_id": 4,
+            "counts_train": 488,
+            "counts_test": 556
+        },
+        "6": {
+            "name": "look obj",
+            "valid_id": 3,
+            "ann_id": 6,
+            "counts_train": 3825,
+            "counts_test": 3347
+        },
+        "7": {
+            "name": "hit instr",
+            "valid_id": 4,
+            "ann_id": 7,
+            "counts_train": 367,
+            "counts_test": 349
+        },
+        "8": {
+            "name": "hit obj",
+            "valid_id": 5,
+            "ann_id": 8,
+            "counts_train": 367,
+            "counts_test": 349
+        },
+        "9": {
+            "name": "eat obj",
+            "valid_id": 6,
+            "ann_id": 9,
+            "counts_train": 677,
+            "counts_test": 521
+        },
+        "10": {
+            "name": "eat instr",
+            "valid_id": 7,
+            "ann_id": 10,
+            "counts_train": 677,
+            "counts_test": 521
+        },
+        "11": {
+            "name": "jump instr",
+            "valid_id": 8,
+            "ann_id": 11,
+            "counts_train": 700,
+            "counts_test": 635
+        },
+        "12": {
+            "name": "lay instr",
+            "valid_id": 9,
+            "ann_id": 12,
+            "counts_train": 471,
+            "counts_test": 387
+        },
+        "13": {
+            "name": "talk_on_phone instr",
+            "valid_id": 10,
+            "ann_id": 13,
+            "counts_train": 354,
+            "counts_test": 285
+        },
+        "14": {
+            "name": "carry obj",
+            "valid_id": 11,
+            "ann_id": 14,
+            "counts_train": 498,
+            "counts_test": 472
+        },
+        "15": {
+            "name": "throw obj",
+            "valid_id": 12,
+            "ann_id": 15,
+            "counts_train": 300,
+            "counts_test": 244
+        },
+        "16": {
+            "name": "catch obj",
+            "valid_id": 13,
+            "ann_id": 16,
+            "counts_train": 313,
+            "counts_test": 246
+        },
+        "17": {
+            "name": "cut instr",
+            "valid_id": 14,
+            "ann_id": 17,
+            "counts_train": 300,
+            "counts_test": 269
+        },
+        "18": {
+            "name": "cut obj",
+            "valid_id": 15,
+            "ann_id": 18,
+            "counts_train": 300,
+            "counts_test": 269
+        },
+        "20": {
+            "name": "work_on_computer instr",
+            "valid_id": 16,
+            "ann_id": 20,
+            "counts_train": 458,
+            "counts_test": 410
+        },
+        "21": {
+            "name": "ski instr",
+            "valid_id": 17,
+            "ann_id": 21,
+            "counts_train": 500,
+            "counts_test": 424
+        },
+        "22": {
+            "name": "surf instr",
+            "valid_id": 18,
+            "ann_id": 22,
+            "counts_train": 498,
+            "counts_test": 486
+        },
+        "23": {
+            "name": "skateboard instr",
+            "valid_id": 19,
+            "ann_id": 23,
+            "counts_train": 489,
+            "counts_test": 417
+        },
+        "25": {
+            "name": "drink instr",
+            "valid_id": 20,
+            "ann_id": 25,
+            "counts_train": 133,
+            "counts_test": 82
+        },
+        "26": {
+            "name": "kick obj",
+            "valid_id": 21,
+            "ann_id": 26,
+            "counts_train": 142,
+            "counts_test": 180
+        },
+        "28": {
+            "name": "read obj",
+            "valid_id": 22,
+            "ann_id": 28,
+            "counts_train": 116,
+            "counts_test": 111
+        },
+        "29": {
+            "name": "snowboard instr",
+            "valid_id": 23,
+            "ann_id": 29,
+            "counts_train": 388,
+            "counts_test": 277
+        }
+    },
+    "hoi_info": {
+        "1": {
+            "name": "look obj-airplane",
+            "text": "a photo of a person looking at an airplane",
+            "valid_id": 0,
+            "ann_id": 1,
+            "ann_hoi_pair": [
+                6,
+                5
+            ],
+            "valid_hoi_pair": [
+                3,
+                4
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 4,
+            "ann_obj_id": 5,
+            "counts_train": 5,
+            "counts_test": 6
+        },
+        "2": {
+            "name": "cut obj-apple",
+            "text": "a photo of a person cutting an apple",
+            "valid_id": 1,
+            "ann_id": 2,
+            "ann_hoi_pair": [
+                18,
+                53
+            ],
+            "valid_hoi_pair": [
+                15,
+                47
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 47,
+            "ann_obj_id": 53,
+            "counts_train": 4,
+            "counts_test": 2
+        },
+        "3": {
+            "name": "eat obj-apple",
+            "text": "a photo of a person eating an apple",
+            "valid_id": 2,
+            "ann_id": 3,
+            "ann_hoi_pair": [
+                9,
+                53
+            ],
+            "valid_hoi_pair": [
+                6,
+                47
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 47,
+            "ann_obj_id": 53,
+            "counts_train": 3,
+            "counts_test": 7
+        },
+        "4": {
+            "name": "hold obj-apple",
+            "text": "a photo of a person holding an apple",
+            "valid_id": 3,
+            "ann_id": 4,
+            "ann_hoi_pair": [
+                1,
+                53
+            ],
+            "valid_hoi_pair": [
+                0,
+                47
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 47,
+            "ann_obj_id": 53,
+            "counts_train": 5,
+            "counts_test": 5
+        },
+        "5": {
+            "name": "look obj-apple",
+            "text": "a photo of a person looking at an apple",
+            "valid_id": 4,
+            "ann_id": 5,
+            "ann_hoi_pair": [
+                6,
+                53
+            ],
+            "valid_hoi_pair": [
+                3,
+                47
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 47,
+            "ann_obj_id": 53,
+            "counts_train": 2,
+            "counts_test": 1
+        },
+        "6": {
+            "name": "carry obj-backpack",
+            "text": "a photo of a person carrying a backpack",
+            "valid_id": 5,
+            "ann_id": 6,
+            "ann_hoi_pair": [
+                14,
+                27
+            ],
+            "valid_hoi_pair": [
+                11,
+                24
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 24,
+            "ann_obj_id": 27,
+            "counts_train": 59,
+            "counts_test": 80
+        },
+        "7": {
+            "name": "hold obj-backpack",
+            "text": "a photo of a person holding a backpack",
+            "valid_id": 6,
+            "ann_id": 7,
+            "ann_hoi_pair": [
+                1,
+                27
+            ],
+            "valid_hoi_pair": [
+                0,
+                24
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 24,
+            "ann_obj_id": 27,
+            "counts_train": 46,
+            "counts_test": 44
+        },
+        "8": {
+            "name": "look obj-backpack",
+            "text": "a photo of a person looking at a backpack",
+            "valid_id": 7,
+            "ann_id": 8,
+            "ann_hoi_pair": [
+                6,
+                27
+            ],
+            "valid_hoi_pair": [
+                3,
+                24
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 24,
+            "ann_obj_id": 27,
+            "counts_train": 7,
+            "counts_test": 1
+        },
+        "9": {
+            "name": "sit instr-backpack",
+            "text": "a photo of a person sitting on a backpack",
+            "valid_id": 8,
+            "ann_id": 9,
+            "ann_hoi_pair": [
+                3,
+                27
+            ],
+            "valid_hoi_pair": [
+                1,
+                24
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 24,
+            "ann_obj_id": 27,
+            "counts_train": 2,
+            "counts_test": 0
+        },
+        "10": {
+            "name": "carry obj-banana",
+            "text": "a photo of a person carrying a banana",
+            "valid_id": 9,
+            "ann_id": 10,
+            "ann_hoi_pair": [
+                14,
+                52
+            ],
+            "valid_hoi_pair": [
+                11,
+                46
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 46,
+            "ann_obj_id": 52,
+            "counts_train": 7,
+            "counts_test": 2
+        },
+        "11": {
+            "name": "cut obj-banana",
+            "text": "a photo of a person cutting a banana",
+            "valid_id": 10,
+            "ann_id": 11,
+            "ann_hoi_pair": [
+                18,
+                52
+            ],
+            "valid_hoi_pair": [
+                15,
+                46
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 46,
+            "ann_obj_id": 52,
+            "counts_train": 3,
+            "counts_test": 1
+        },
+        "12": {
+            "name": "eat obj-banana",
+            "text": "a photo of a person eating a banana",
+            "valid_id": 11,
+            "ann_id": 12,
+            "ann_hoi_pair": [
+                9,
+                52
+            ],
+            "valid_hoi_pair": [
+                6,
+                46
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 46,
+            "ann_obj_id": 52,
+            "counts_train": 21,
+            "counts_test": 15
+        },
+        "13": {
+            "name": "hold obj-banana",
+            "text": "a photo of a person holding a banana",
+            "valid_id": 12,
+            "ann_id": 13,
+            "ann_hoi_pair": [
+                1,
+                52
+            ],
+            "valid_hoi_pair": [
+                0,
+                46
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 46,
+            "ann_obj_id": 52,
+            "counts_train": 26,
+            "counts_test": 21
+        },
+        "14": {
+            "name": "look obj-banana",
+            "text": "a photo of a person looking at a banana",
+            "valid_id": 13,
+            "ann_id": 14,
+            "ann_hoi_pair": [
+                6,
+                52
+            ],
+            "valid_hoi_pair": [
+                3,
+                46
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 46,
+            "ann_obj_id": 52,
+            "counts_train": 2,
+            "counts_test": 3
+        },
+        "15": {
+            "name": "carry obj-baseball bat",
+            "text": "a photo of a person carrying a baseball bat",
+            "valid_id": 14,
+            "ann_id": 15,
+            "ann_hoi_pair": [
+                14,
+                39
+            ],
+            "valid_hoi_pair": [
+                11,
+                34
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 34,
+            "ann_obj_id": 39,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "16": {
+            "name": "hit instr-baseball bat",
+            "text": "a photo of a person hitting with a baseball bat",
+            "valid_id": 15,
+            "ann_id": 16,
+            "ann_hoi_pair": [
+                7,
+                39
+            ],
+            "valid_hoi_pair": [
+                4,
+                34
+            ],
+            "valid_rel_id": 4,
+            "ann_rel_id": 7,
+            "valid_obj_id": 34,
+            "ann_obj_id": 39,
+            "counts_train": 109,
+            "counts_test": 85
+        },
+        "17": {
+            "name": "hold obj-baseball bat",
+            "text": "a photo of a person holding a baseball bat",
+            "valid_id": 16,
+            "ann_id": 17,
+            "ann_hoi_pair": [
+                1,
+                39
+            ],
+            "valid_hoi_pair": [
+                0,
+                34
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 34,
+            "ann_obj_id": 39,
+            "counts_train": 120,
+            "counts_test": 102
+        },
+        "18": {
+            "name": "look obj-baseball bat",
+            "text": "a photo of a person looking at a baseball bat",
+            "valid_id": 17,
+            "ann_id": 18,
+            "ann_hoi_pair": [
+                6,
+                39
+            ],
+            "valid_hoi_pair": [
+                3,
+                34
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 34,
+            "ann_obj_id": 39,
+            "counts_train": 4,
+            "counts_test": 9
+        },
+        "19": {
+            "name": "hold obj-baseball glove",
+            "text": "a photo of a person holding a baseball glove",
+            "valid_id": 18,
+            "ann_id": 19,
+            "ann_hoi_pair": [
+                1,
+                40
+            ],
+            "valid_hoi_pair": [
+                0,
+                35
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 35,
+            "ann_obj_id": 40,
+            "counts_train": 66,
+            "counts_test": 38
+        },
+        "20": {
+            "name": "look obj-baseball glove",
+            "text": "a photo of a person looking at a baseball glove",
+            "valid_id": 19,
+            "ann_id": 20,
+            "ann_hoi_pair": [
+                6,
+                40
+            ],
+            "valid_hoi_pair": [
+                3,
+                35
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 35,
+            "ann_obj_id": 40,
+            "counts_train": 5,
+            "counts_test": 2
+        },
+        "21": {
+            "name": "hold obj-bed",
+            "text": "a photo of a person holding a bed",
+            "valid_id": 20,
+            "ann_id": 21,
+            "ann_hoi_pair": [
+                1,
+                65
+            ],
+            "valid_hoi_pair": [
+                0,
+                59
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 59,
+            "ann_obj_id": 65,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "22": {
+            "name": "lay instr-bed",
+            "text": "a photo of a person laying on a bed",
+            "valid_id": 21,
+            "ann_id": 22,
+            "ann_hoi_pair": [
+                12,
+                65
+            ],
+            "valid_hoi_pair": [
+                9,
+                59
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 59,
+            "ann_obj_id": 65,
+            "counts_train": 228,
+            "counts_test": 175
+        },
+        "23": {
+            "name": "sit instr-bed",
+            "text": "a photo of a person sitting on a bed",
+            "valid_id": 22,
+            "ann_id": 23,
+            "ann_hoi_pair": [
+                3,
+                65
+            ],
+            "valid_hoi_pair": [
+                1,
+                59
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 59,
+            "ann_obj_id": 65,
+            "counts_train": 55,
+            "counts_test": 60
+        },
+        "24": {
+            "name": "hold obj-bench",
+            "text": "a photo of a person holding a bench",
+            "valid_id": 23,
+            "ann_id": 24,
+            "ann_hoi_pair": [
+                1,
+                15
+            ],
+            "valid_hoi_pair": [
+                0,
+                13
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 13,
+            "ann_obj_id": 15,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "25": {
+            "name": "lay instr-bench",
+            "text": "a photo of a person laying on a bench",
+            "valid_id": 24,
+            "ann_id": 25,
+            "ann_hoi_pair": [
+                12,
+                15
+            ],
+            "valid_hoi_pair": [
+                9,
+                13
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 13,
+            "ann_obj_id": 15,
+            "counts_train": 24,
+            "counts_test": 16
+        },
+        "26": {
+            "name": "look obj-bench",
+            "text": "a photo of a person looking at a bench",
+            "valid_id": 25,
+            "ann_id": 26,
+            "ann_hoi_pair": [
+                6,
+                15
+            ],
+            "valid_hoi_pair": [
+                3,
+                13
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 13,
+            "ann_obj_id": 15,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "27": {
+            "name": "sit instr-bench",
+            "text": "a photo of a person sitting on a bench",
+            "valid_id": 26,
+            "ann_id": 27,
+            "ann_hoi_pair": [
+                3,
+                15
+            ],
+            "valid_hoi_pair": [
+                1,
+                13
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 13,
+            "ann_obj_id": 15,
+            "counts_train": 107,
+            "counts_test": 111
+        },
+        "28": {
+            "name": "carry obj-bicycle",
+            "text": "a photo of a person carrying a bicycle",
+            "valid_id": 27,
+            "ann_id": 28,
+            "ann_hoi_pair": [
+                14,
+                2
+            ],
+            "valid_hoi_pair": [
+                11,
+                1
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 1,
+            "ann_obj_id": 2,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "29": {
+            "name": "hold obj-bicycle",
+            "text": "a photo of a person holding a bicycle",
+            "valid_id": 28,
+            "ann_id": 29,
+            "ann_hoi_pair": [
+                1,
+                2
+            ],
+            "valid_hoi_pair": [
+                0,
+                1
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 1,
+            "ann_obj_id": 2,
+            "counts_train": 46,
+            "counts_test": 36
+        },
+        "30": {
+            "name": "look obj-bicycle",
+            "text": "a photo of a person looking at a bicycle",
+            "valid_id": 29,
+            "ann_id": 30,
+            "ann_hoi_pair": [
+                6,
+                2
+            ],
+            "valid_hoi_pair": [
+                3,
+                1
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 1,
+            "ann_obj_id": 2,
+            "counts_train": 6,
+            "counts_test": 1
+        },
+        "31": {
+            "name": "ride instr-bicycle",
+            "text": "a photo of a person riding a bicycle",
+            "valid_id": 30,
+            "ann_id": 31,
+            "ann_hoi_pair": [
+                4,
+                2
+            ],
+            "valid_hoi_pair": [
+                2,
+                1
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 1,
+            "ann_obj_id": 2,
+            "counts_train": 67,
+            "counts_test": 54
+        },
+        "32": {
+            "name": "sit instr-bicycle",
+            "text": "a photo of a person sitting on a bicycle",
+            "valid_id": 31,
+            "ann_id": 32,
+            "ann_hoi_pair": [
+                3,
+                2
+            ],
+            "valid_hoi_pair": [
+                1,
+                1
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 1,
+            "ann_obj_id": 2,
+            "counts_train": 56,
+            "counts_test": 40
+        },
+        "33": {
+            "name": "hold obj-bird",
+            "text": "a photo of a person holding a bird",
+            "valid_id": 32,
+            "ann_id": 33,
+            "ann_hoi_pair": [
+                1,
+                16
+            ],
+            "valid_hoi_pair": [
+                0,
+                14
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 14,
+            "ann_obj_id": 16,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "34": {
+            "name": "look obj-bird",
+            "text": "a photo of a person looking at a bird",
+            "valid_id": 33,
+            "ann_id": 34,
+            "ann_hoi_pair": [
+                6,
+                16
+            ],
+            "valid_hoi_pair": [
+                3,
+                14
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 14,
+            "ann_obj_id": 16,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "35": {
+            "name": "hold obj-boat",
+            "text": "a photo of a person holding a boat",
+            "valid_id": 34,
+            "ann_id": 35,
+            "ann_hoi_pair": [
+                1,
+                9
+            ],
+            "valid_hoi_pair": [
+                0,
+                8
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 8,
+            "ann_obj_id": 9,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "36": {
+            "name": "look obj-boat",
+            "text": "a photo of a person looking at a boat",
+            "valid_id": 35,
+            "ann_id": 36,
+            "ann_hoi_pair": [
+                6,
+                9
+            ],
+            "valid_hoi_pair": [
+                3,
+                8
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 8,
+            "ann_obj_id": 9,
+            "counts_train": 0,
+            "counts_test": 2
+        },
+        "37": {
+            "name": "ride instr-boat",
+            "text": "a photo of a person riding a boat",
+            "valid_id": 36,
+            "ann_id": 37,
+            "ann_hoi_pair": [
+                4,
+                9
+            ],
+            "valid_hoi_pair": [
+                2,
+                8
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 8,
+            "ann_obj_id": 9,
+            "counts_train": 31,
+            "counts_test": 33
+        },
+        "38": {
+            "name": "carry obj-book",
+            "text": "a photo of a person carrying a book",
+            "valid_id": 37,
+            "ann_id": 38,
+            "ann_hoi_pair": [
+                14,
+                84
+            ],
+            "valid_hoi_pair": [
+                11,
+                73
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 73,
+            "ann_obj_id": 84,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "39": {
+            "name": "cut obj-book",
+            "text": "a photo of a person cutting a book",
+            "valid_id": 38,
+            "ann_id": 39,
+            "ann_hoi_pair": [
+                18,
+                84
+            ],
+            "valid_hoi_pair": [
+                15,
+                73
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 73,
+            "ann_obj_id": 84,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "40": {
+            "name": "hold obj-book",
+            "text": "a photo of a person holding a book",
+            "valid_id": 39,
+            "ann_id": 40,
+            "ann_hoi_pair": [
+                1,
+                84
+            ],
+            "valid_hoi_pair": [
+                0,
+                73
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 73,
+            "ann_obj_id": 84,
+            "counts_train": 83,
+            "counts_test": 95
+        },
+        "41": {
+            "name": "look obj-book",
+            "text": "a photo of a person looking at a book",
+            "valid_id": 40,
+            "ann_id": 41,
+            "ann_hoi_pair": [
+                6,
+                84
+            ],
+            "valid_hoi_pair": [
+                3,
+                73
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 73,
+            "ann_obj_id": 84,
+            "counts_train": 75,
+            "counts_test": 75
+        },
+        "42": {
+            "name": "read obj-book",
+            "text": "a photo of a person reading a book",
+            "valid_id": 41,
+            "ann_id": 42,
+            "ann_hoi_pair": [
+                28,
+                84
+            ],
+            "valid_hoi_pair": [
+                22,
+                73
+            ],
+            "valid_rel_id": 22,
+            "ann_rel_id": 28,
+            "valid_obj_id": 73,
+            "ann_obj_id": 84,
+            "counts_train": 86,
+            "counts_test": 86
+        },
+        "43": {
+            "name": "carry obj-bottle",
+            "text": "a photo of a person carrying a bottle",
+            "valid_id": 42,
+            "ann_id": 43,
+            "ann_hoi_pair": [
+                14,
+                44
+            ],
+            "valid_hoi_pair": [
+                11,
+                39
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 39,
+            "ann_obj_id": 44,
+            "counts_train": 2,
+            "counts_test": 0
+        },
+        "44": {
+            "name": "drink instr-bottle",
+            "text": "a photo of a person drinking with a bottle",
+            "valid_id": 43,
+            "ann_id": 44,
+            "ann_hoi_pair": [
+                25,
+                44
+            ],
+            "valid_hoi_pair": [
+                20,
+                39
+            ],
+            "valid_rel_id": 20,
+            "ann_rel_id": 25,
+            "valid_obj_id": 39,
+            "ann_obj_id": 44,
+            "counts_train": 15,
+            "counts_test": 7
+        },
+        "45": {
+            "name": "hold obj-bottle",
+            "text": "a photo of a person holding a bottle",
+            "valid_id": 44,
+            "ann_id": 45,
+            "ann_hoi_pair": [
+                1,
+                44
+            ],
+            "valid_hoi_pair": [
+                0,
+                39
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 39,
+            "ann_obj_id": 44,
+            "counts_train": 32,
+            "counts_test": 17
+        },
+        "46": {
+            "name": "look obj-bottle",
+            "text": "a photo of a person looking at a bottle",
+            "valid_id": 45,
+            "ann_id": 46,
+            "ann_hoi_pair": [
+                6,
+                44
+            ],
+            "valid_hoi_pair": [
+                3,
+                39
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 39,
+            "ann_obj_id": 44,
+            "counts_train": 5,
+            "counts_test": 2
+        },
+        "47": {
+            "name": "cut obj-bowl",
+            "text": "a photo of a person cutting a bowl",
+            "valid_id": 46,
+            "ann_id": 47,
+            "ann_hoi_pair": [
+                18,
+                51
+            ],
+            "valid_hoi_pair": [
+                15,
+                45
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 45,
+            "ann_obj_id": 51,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "48": {
+            "name": "drink instr-bowl",
+            "text": "a photo of a person drinking with a bowl",
+            "valid_id": 47,
+            "ann_id": 48,
+            "ann_hoi_pair": [
+                25,
+                51
+            ],
+            "valid_hoi_pair": [
+                20,
+                45
+            ],
+            "valid_rel_id": 20,
+            "ann_rel_id": 25,
+            "valid_obj_id": 45,
+            "ann_obj_id": 51,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "49": {
+            "name": "hold obj-bowl",
+            "text": "a photo of a person holding a bowl",
+            "valid_id": 48,
+            "ann_id": 49,
+            "ann_hoi_pair": [
+                1,
+                51
+            ],
+            "valid_hoi_pair": [
+                0,
+                45
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 45,
+            "ann_obj_id": 51,
+            "counts_train": 13,
+            "counts_test": 7
+        },
+        "50": {
+            "name": "look obj-bowl",
+            "text": "a photo of a person looking at a bowl",
+            "valid_id": 49,
+            "ann_id": 50,
+            "ann_hoi_pair": [
+                6,
+                51
+            ],
+            "valid_hoi_pair": [
+                3,
+                45
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 45,
+            "ann_obj_id": 51,
+            "counts_train": 12,
+            "counts_test": 13
+        },
+        "51": {
+            "name": "cut obj-broccoli",
+            "text": "a photo of a person cutting a broccoli",
+            "valid_id": 50,
+            "ann_id": 51,
+            "ann_hoi_pair": [
+                18,
+                56
+            ],
+            "valid_hoi_pair": [
+                15,
+                50
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 50,
+            "ann_obj_id": 56,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "52": {
+            "name": "eat obj-broccoli",
+            "text": "a photo of a person eating a broccoli",
+            "valid_id": 51,
+            "ann_id": 52,
+            "ann_hoi_pair": [
+                9,
+                56
+            ],
+            "valid_hoi_pair": [
+                6,
+                50
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 50,
+            "ann_obj_id": 56,
+            "counts_train": 7,
+            "counts_test": 3
+        },
+        "53": {
+            "name": "hold obj-broccoli",
+            "text": "a photo of a person holding a broccoli",
+            "valid_id": 52,
+            "ann_id": 53,
+            "ann_hoi_pair": [
+                1,
+                56
+            ],
+            "valid_hoi_pair": [
+                0,
+                50
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 50,
+            "ann_obj_id": 56,
+            "counts_train": 6,
+            "counts_test": 1
+        },
+        "54": {
+            "name": "look obj-broccoli",
+            "text": "a photo of a person looking at a broccoli",
+            "valid_id": 53,
+            "ann_id": 54,
+            "ann_hoi_pair": [
+                6,
+                56
+            ],
+            "valid_hoi_pair": [
+                3,
+                50
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 50,
+            "ann_obj_id": 56,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "55": {
+            "name": "look obj-bus",
+            "text": "a photo of a person looking at a bus",
+            "valid_id": 54,
+            "ann_id": 55,
+            "ann_hoi_pair": [
+                6,
+                6
+            ],
+            "valid_hoi_pair": [
+                3,
+                5
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 5,
+            "ann_obj_id": 6,
+            "counts_train": 1,
+            "counts_test": 8
+        },
+        "56": {
+            "name": "ride instr-bus",
+            "text": "a photo of a person riding a bus",
+            "valid_id": 55,
+            "ann_id": 56,
+            "ann_hoi_pair": [
+                4,
+                6
+            ],
+            "valid_hoi_pair": [
+                2,
+                5
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 5,
+            "ann_obj_id": 6,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "57": {
+            "name": "cut obj-cake",
+            "text": "a photo of a person cutting a cake",
+            "valid_id": 56,
+            "ann_id": 57,
+            "ann_hoi_pair": [
+                18,
+                61
+            ],
+            "valid_hoi_pair": [
+                15,
+                55
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 55,
+            "ann_obj_id": 61,
+            "counts_train": 160,
+            "counts_test": 155
+        },
+        "58": {
+            "name": "eat obj-cake",
+            "text": "a photo of a person eating a cake",
+            "valid_id": 57,
+            "ann_id": 58,
+            "ann_hoi_pair": [
+                9,
+                61
+            ],
+            "valid_hoi_pair": [
+                6,
+                55
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 55,
+            "ann_obj_id": 61,
+            "counts_train": 58,
+            "counts_test": 40
+        },
+        "59": {
+            "name": "hold obj-cake",
+            "text": "a photo of a person holding a cake",
+            "valid_id": 58,
+            "ann_id": 59,
+            "ann_hoi_pair": [
+                1,
+                61
+            ],
+            "valid_hoi_pair": [
+                0,
+                55
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 55,
+            "ann_obj_id": 61,
+            "counts_train": 22,
+            "counts_test": 13
+        },
+        "60": {
+            "name": "look obj-cake",
+            "text": "a photo of a person looking at a cake",
+            "valid_id": 59,
+            "ann_id": 60,
+            "ann_hoi_pair": [
+                6,
+                61
+            ],
+            "valid_hoi_pair": [
+                3,
+                55
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 55,
+            "ann_obj_id": 61,
+            "counts_train": 134,
+            "counts_test": 127
+        },
+        "61": {
+            "name": "carry obj-car",
+            "text": "a photo of a person carrying a car",
+            "valid_id": 60,
+            "ann_id": 61,
+            "ann_hoi_pair": [
+                14,
+                3
+            ],
+            "valid_hoi_pair": [
+                11,
+                2
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 2,
+            "ann_obj_id": 3,
+            "counts_train": 0,
+            "counts_test": 2
+        },
+        "62": {
+            "name": "look obj-car",
+            "text": "a photo of a person looking at a car",
+            "valid_id": 61,
+            "ann_id": 62,
+            "ann_hoi_pair": [
+                6,
+                3
+            ],
+            "valid_hoi_pair": [
+                3,
+                2
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 2,
+            "ann_obj_id": 3,
+            "counts_train": 1,
+            "counts_test": 3
+        },
+        "63": {
+            "name": "ride instr-car",
+            "text": "a photo of a person riding a car",
+            "valid_id": 62,
+            "ann_id": 63,
+            "ann_hoi_pair": [
+                4,
+                3
+            ],
+            "valid_hoi_pair": [
+                2,
+                2
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 2,
+            "ann_obj_id": 3,
+            "counts_train": 9,
+            "counts_test": 11
+        },
+        "64": {
+            "name": "cut obj-carrot",
+            "text": "a photo of a person cutting a carrot",
+            "valid_id": 63,
+            "ann_id": 64,
+            "ann_hoi_pair": [
+                18,
+                57
+            ],
+            "valid_hoi_pair": [
+                15,
+                51
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 51,
+            "ann_obj_id": 57,
+            "counts_train": 7,
+            "counts_test": 1
+        },
+        "65": {
+            "name": "eat obj-carrot",
+            "text": "a photo of a person eating a carrot",
+            "valid_id": 64,
+            "ann_id": 65,
+            "ann_hoi_pair": [
+                9,
+                57
+            ],
+            "valid_hoi_pair": [
+                6,
+                51
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 51,
+            "ann_obj_id": 57,
+            "counts_train": 1,
+            "counts_test": 9
+        },
+        "66": {
+            "name": "hold obj-carrot",
+            "text": "a photo of a person holding a carrot",
+            "valid_id": 65,
+            "ann_id": 66,
+            "ann_hoi_pair": [
+                1,
+                57
+            ],
+            "valid_hoi_pair": [
+                0,
+                51
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 51,
+            "ann_obj_id": 57,
+            "counts_train": 1,
+            "counts_test": 9
+        },
+        "67": {
+            "name": "hold obj-cat",
+            "text": "a photo of a person holding a cat",
+            "valid_id": 66,
+            "ann_id": 67,
+            "ann_hoi_pair": [
+                1,
+                17
+            ],
+            "valid_hoi_pair": [
+                0,
+                15
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 15,
+            "ann_obj_id": 17,
+            "counts_train": 8,
+            "counts_test": 3
+        },
+        "68": {
+            "name": "look obj-cat",
+            "text": "a photo of a person looking at a cat",
+            "valid_id": 67,
+            "ann_id": 68,
+            "ann_hoi_pair": [
+                6,
+                17
+            ],
+            "valid_hoi_pair": [
+                3,
+                15
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 15,
+            "ann_obj_id": 17,
+            "counts_train": 14,
+            "counts_test": 4
+        },
+        "69": {
+            "name": "carry obj-cell phone",
+            "text": "a photo of a person carrying a cell phone",
+            "valid_id": 68,
+            "ann_id": 69,
+            "ann_hoi_pair": [
+                14,
+                77
+            ],
+            "valid_hoi_pair": [
+                11,
+                67
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 67,
+            "ann_obj_id": 77,
+            "counts_train": 17,
+            "counts_test": 14
+        },
+        "70": {
+            "name": "hold obj-cell phone",
+            "text": "a photo of a person holding a cell phone",
+            "valid_id": 69,
+            "ann_id": 70,
+            "ann_hoi_pair": [
+                1,
+                77
+            ],
+            "valid_hoi_pair": [
+                0,
+                67
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 67,
+            "ann_obj_id": 77,
+            "counts_train": 350,
+            "counts_test": 310
+        },
+        "71": {
+            "name": "look obj-cell phone",
+            "text": "a photo of a person looking at a cell phone",
+            "valid_id": 70,
+            "ann_id": 71,
+            "ann_hoi_pair": [
+                6,
+                77
+            ],
+            "valid_hoi_pair": [
+                3,
+                67
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 67,
+            "ann_obj_id": 77,
+            "counts_train": 62,
+            "counts_test": 44
+        },
+        "72": {
+            "name": "talk_on_phone instr-cell phone",
+            "text": "a photo of a person talking on a cell phone",
+            "valid_id": 71,
+            "ann_id": 72,
+            "ann_hoi_pair": [
+                13,
+                77
+            ],
+            "valid_hoi_pair": [
+                10,
+                67
+            ],
+            "valid_rel_id": 10,
+            "ann_rel_id": 13,
+            "valid_obj_id": 67,
+            "ann_obj_id": 77,
+            "counts_train": 292,
+            "counts_test": 246
+        },
+        "73": {
+            "name": "hold obj-chair",
+            "text": "a photo of a person holding a chair",
+            "valid_id": 72,
+            "ann_id": 73,
+            "ann_hoi_pair": [
+                1,
+                62
+            ],
+            "valid_hoi_pair": [
+                0,
+                56
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 56,
+            "ann_obj_id": 62,
+            "counts_train": 2,
+            "counts_test": 4
+        },
+        "74": {
+            "name": "lay instr-chair",
+            "text": "a photo of a person laying on a chair",
+            "valid_id": 73,
+            "ann_id": 74,
+            "ann_hoi_pair": [
+                12,
+                62
+            ],
+            "valid_hoi_pair": [
+                9,
+                56
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 56,
+            "ann_obj_id": 62,
+            "counts_train": 1,
+            "counts_test": 4
+        },
+        "75": {
+            "name": "look obj-chair",
+            "text": "a photo of a person looking at a chair",
+            "valid_id": 74,
+            "ann_id": 75,
+            "ann_hoi_pair": [
+                6,
+                62
+            ],
+            "valid_hoi_pair": [
+                3,
+                56
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 56,
+            "ann_obj_id": 62,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "76": {
+            "name": "sit instr-chair",
+            "text": "a photo of a person sitting on a chair",
+            "valid_id": 75,
+            "ann_id": 76,
+            "ann_hoi_pair": [
+                3,
+                62
+            ],
+            "valid_hoi_pair": [
+                1,
+                56
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 56,
+            "ann_obj_id": 62,
+            "counts_train": 431,
+            "counts_test": 427
+        },
+        "77": {
+            "name": "carry obj-clock",
+            "text": "a photo of a person carrying a clock",
+            "valid_id": 76,
+            "ann_id": 77,
+            "ann_hoi_pair": [
+                14,
+                85
+            ],
+            "valid_hoi_pair": [
+                11,
+                74
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 74,
+            "ann_obj_id": 85,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "78": {
+            "name": "look obj-clock",
+            "text": "a photo of a person looking at a clock",
+            "valid_id": 77,
+            "ann_id": 78,
+            "ann_hoi_pair": [
+                6,
+                85
+            ],
+            "valid_hoi_pair": [
+                3,
+                74
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 74,
+            "ann_obj_id": 85,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "79": {
+            "name": "lay instr-couch",
+            "text": "a photo of a person laying on a couch",
+            "valid_id": 78,
+            "ann_id": 79,
+            "ann_hoi_pair": [
+                12,
+                63
+            ],
+            "valid_hoi_pair": [
+                9,
+                57
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 57,
+            "ann_obj_id": 63,
+            "counts_train": 29,
+            "counts_test": 34
+        },
+        "80": {
+            "name": "sit instr-couch",
+            "text": "a photo of a person sitting on a couch",
+            "valid_id": 79,
+            "ann_id": 80,
+            "ann_hoi_pair": [
+                3,
+                63
+            ],
+            "valid_hoi_pair": [
+                1,
+                57
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 57,
+            "ann_obj_id": 63,
+            "counts_train": 136,
+            "counts_test": 95
+        },
+        "81": {
+            "name": "hold obj-cow",
+            "text": "a photo of a person holding a cow",
+            "valid_id": 80,
+            "ann_id": 81,
+            "ann_hoi_pair": [
+                1,
+                21
+            ],
+            "valid_hoi_pair": [
+                0,
+                19
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 19,
+            "ann_obj_id": 21,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "82": {
+            "name": "look obj-cow",
+            "text": "a photo of a person looking at a cow",
+            "valid_id": 81,
+            "ann_id": 82,
+            "ann_hoi_pair": [
+                6,
+                21
+            ],
+            "valid_hoi_pair": [
+                3,
+                19
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 19,
+            "ann_obj_id": 21,
+            "counts_train": 5,
+            "counts_test": 3
+        },
+        "83": {
+            "name": "carry obj-cup",
+            "text": "a photo of a person carrying a cup",
+            "valid_id": 82,
+            "ann_id": 83,
+            "ann_hoi_pair": [
+                14,
+                47
+            ],
+            "valid_hoi_pair": [
+                11,
+                41
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 41,
+            "ann_obj_id": 47,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "84": {
+            "name": "drink instr-cup",
+            "text": "a photo of a person drinking with a cup",
+            "valid_id": 83,
+            "ann_id": 84,
+            "ann_hoi_pair": [
+                25,
+                47
+            ],
+            "valid_hoi_pair": [
+                20,
+                41
+            ],
+            "valid_rel_id": 20,
+            "ann_rel_id": 25,
+            "valid_obj_id": 41,
+            "ann_obj_id": 47,
+            "counts_train": 53,
+            "counts_test": 40
+        },
+        "85": {
+            "name": "hold obj-cup",
+            "text": "a photo of a person holding a cup",
+            "valid_id": 84,
+            "ann_id": 85,
+            "ann_hoi_pair": [
+                1,
+                47
+            ],
+            "valid_hoi_pair": [
+                0,
+                41
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 41,
+            "ann_obj_id": 47,
+            "counts_train": 82,
+            "counts_test": 64
+        },
+        "86": {
+            "name": "look obj-cup",
+            "text": "a photo of a person looking at a cup",
+            "valid_id": 85,
+            "ann_id": 86,
+            "ann_hoi_pair": [
+                6,
+                47
+            ],
+            "valid_hoi_pair": [
+                3,
+                41
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 41,
+            "ann_obj_id": 47,
+            "counts_train": 15,
+            "counts_test": 12
+        },
+        "87": {
+            "name": "hold obj-dining table",
+            "text": "a photo of a person holding a dining table",
+            "valid_id": 86,
+            "ann_id": 87,
+            "ann_hoi_pair": [
+                1,
+                67
+            ],
+            "valid_hoi_pair": [
+                0,
+                60
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 60,
+            "ann_obj_id": 67,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "88": {
+            "name": "lay instr-dining table",
+            "text": "a photo of a person laying on a dining table",
+            "valid_id": 87,
+            "ann_id": 88,
+            "ann_hoi_pair": [
+                12,
+                67
+            ],
+            "valid_hoi_pair": [
+                9,
+                60
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 60,
+            "ann_obj_id": 67,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "89": {
+            "name": "look obj-dining table",
+            "text": "a photo of a person looking at a dining table",
+            "valid_id": 88,
+            "ann_id": 89,
+            "ann_hoi_pair": [
+                6,
+                67
+            ],
+            "valid_hoi_pair": [
+                3,
+                60
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 60,
+            "ann_obj_id": 67,
+            "counts_train": 7,
+            "counts_test": 9
+        },
+        "90": {
+            "name": "sit instr-dining table",
+            "text": "a photo of a person sitting on a dining table",
+            "valid_id": 89,
+            "ann_id": 90,
+            "ann_hoi_pair": [
+                3,
+                67
+            ],
+            "valid_hoi_pair": [
+                1,
+                60
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 60,
+            "ann_obj_id": 67,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "91": {
+            "name": "carry obj-dog",
+            "text": "a photo of a person carrying a dog",
+            "valid_id": 90,
+            "ann_id": 91,
+            "ann_hoi_pair": [
+                14,
+                18
+            ],
+            "valid_hoi_pair": [
+                11,
+                16
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 16,
+            "ann_obj_id": 18,
+            "counts_train": 0,
+            "counts_test": 2
+        },
+        "92": {
+            "name": "hold obj-dog",
+            "text": "a photo of a person holding a dog",
+            "valid_id": 91,
+            "ann_id": 92,
+            "ann_hoi_pair": [
+                1,
+                18
+            ],
+            "valid_hoi_pair": [
+                0,
+                16
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 16,
+            "ann_obj_id": 18,
+            "counts_train": 14,
+            "counts_test": 15
+        },
+        "93": {
+            "name": "look obj-dog",
+            "text": "a photo of a person looking at a dog",
+            "valid_id": 92,
+            "ann_id": 93,
+            "ann_hoi_pair": [
+                6,
+                18
+            ],
+            "valid_hoi_pair": [
+                3,
+                16
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 16,
+            "ann_obj_id": 18,
+            "counts_train": 18,
+            "counts_test": 20
+        },
+        "94": {
+            "name": "carry obj-donut",
+            "text": "a photo of a person carrying a donut",
+            "valid_id": 93,
+            "ann_id": 94,
+            "ann_hoi_pair": [
+                14,
+                60
+            ],
+            "valid_hoi_pair": [
+                11,
+                54
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 54,
+            "ann_obj_id": 60,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "95": {
+            "name": "cut obj-donut",
+            "text": "a photo of a person cutting a donut",
+            "valid_id": 94,
+            "ann_id": 95,
+            "ann_hoi_pair": [
+                18,
+                60
+            ],
+            "valid_hoi_pair": [
+                15,
+                54
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 54,
+            "ann_obj_id": 60,
+            "counts_train": 2,
+            "counts_test": 2
+        },
+        "96": {
+            "name": "eat obj-donut",
+            "text": "a photo of a person eating a donut",
+            "valid_id": 95,
+            "ann_id": 96,
+            "ann_hoi_pair": [
+                9,
+                60
+            ],
+            "valid_hoi_pair": [
+                6,
+                54
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 54,
+            "ann_obj_id": 60,
+            "counts_train": 79,
+            "counts_test": 59
+        },
+        "97": {
+            "name": "hold obj-donut",
+            "text": "a photo of a person holding a donut",
+            "valid_id": 96,
+            "ann_id": 97,
+            "ann_hoi_pair": [
+                1,
+                60
+            ],
+            "valid_hoi_pair": [
+                0,
+                54
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 54,
+            "ann_obj_id": 60,
+            "counts_train": 55,
+            "counts_test": 54
+        },
+        "98": {
+            "name": "look obj-donut",
+            "text": "a photo of a person looking at a donut",
+            "valid_id": 97,
+            "ann_id": 98,
+            "ann_hoi_pair": [
+                6,
+                60
+            ],
+            "valid_hoi_pair": [
+                3,
+                54
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 54,
+            "ann_obj_id": 60,
+            "counts_train": 18,
+            "counts_test": 10
+        },
+        "99": {
+            "name": "hold obj-elephant",
+            "text": "a photo of a person holding an elephant",
+            "valid_id": 98,
+            "ann_id": 99,
+            "ann_hoi_pair": [
+                1,
+                22
+            ],
+            "valid_hoi_pair": [
+                0,
+                20
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 20,
+            "ann_obj_id": 22,
+            "counts_train": 5,
+            "counts_test": 7
+        },
+        "100": {
+            "name": "look obj-elephant",
+            "text": "a photo of a person looking at an elephant",
+            "valid_id": 99,
+            "ann_id": 100,
+            "ann_hoi_pair": [
+                6,
+                22
+            ],
+            "valid_hoi_pair": [
+                3,
+                20
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 20,
+            "ann_obj_id": 22,
+            "counts_train": 8,
+            "counts_test": 3
+        },
+        "101": {
+            "name": "ride instr-elephant",
+            "text": "a photo of a person riding an elephant",
+            "valid_id": 100,
+            "ann_id": 101,
+            "ann_hoi_pair": [
+                4,
+                22
+            ],
+            "valid_hoi_pair": [
+                2,
+                20
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 20,
+            "ann_obj_id": 22,
+            "counts_train": 73,
+            "counts_test": 61
+        },
+        "102": {
+            "name": "sit instr-elephant",
+            "text": "a photo of a person sitting on an elephant",
+            "valid_id": 101,
+            "ann_id": 102,
+            "ann_hoi_pair": [
+                3,
+                22
+            ],
+            "valid_hoi_pair": [
+                1,
+                20
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 20,
+            "ann_obj_id": 22,
+            "counts_train": 59,
+            "counts_test": 48
+        },
+        "103": {
+            "name": "look obj-fire hydrant",
+            "text": "a photo of a person looking at a fire hydrant",
+            "valid_id": 102,
+            "ann_id": 103,
+            "ann_hoi_pair": [
+                6,
+                11
+            ],
+            "valid_hoi_pair": [
+                3,
+                10
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 10,
+            "ann_obj_id": 11,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "104": {
+            "name": "cut instr-fork",
+            "text": "a photo of a person cutting with a fork",
+            "valid_id": 103,
+            "ann_id": 104,
+            "ann_hoi_pair": [
+                17,
+                48
+            ],
+            "valid_hoi_pair": [
+                14,
+                42
+            ],
+            "valid_rel_id": 14,
+            "ann_rel_id": 17,
+            "valid_obj_id": 42,
+            "ann_obj_id": 48,
+            "counts_train": 3,
+            "counts_test": 3
+        },
+        "105": {
+            "name": "eat instr-fork",
+            "text": "a photo of a person eating with a fork",
+            "valid_id": 104,
+            "ann_id": 105,
+            "ann_hoi_pair": [
+                10,
+                48
+            ],
+            "valid_hoi_pair": [
+                7,
+                42
+            ],
+            "valid_rel_id": 7,
+            "ann_rel_id": 10,
+            "valid_obj_id": 42,
+            "ann_obj_id": 48,
+            "counts_train": 87,
+            "counts_test": 55
+        },
+        "106": {
+            "name": "hold obj-fork",
+            "text": "a photo of a person holding a fork",
+            "valid_id": 105,
+            "ann_id": 106,
+            "ann_hoi_pair": [
+                1,
+                48
+            ],
+            "valid_hoi_pair": [
+                0,
+                42
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 42,
+            "ann_obj_id": 48,
+            "counts_train": 68,
+            "counts_test": 55
+        },
+        "107": {
+            "name": "look obj-fork",
+            "text": "a photo of a person looking at a fork",
+            "valid_id": 106,
+            "ann_id": 107,
+            "ann_hoi_pair": [
+                6,
+                48
+            ],
+            "valid_hoi_pair": [
+                3,
+                42
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 42,
+            "ann_obj_id": 48,
+            "counts_train": 12,
+            "counts_test": 7
+        },
+        "108": {
+            "name": "carry obj-frisbee",
+            "text": "a photo of a person carrying a frisbee",
+            "valid_id": 107,
+            "ann_id": 108,
+            "ann_hoi_pair": [
+                14,
+                34
+            ],
+            "valid_hoi_pair": [
+                11,
+                29
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 29,
+            "ann_obj_id": 34,
+            "counts_train": 3,
+            "counts_test": 3
+        },
+        "109": {
+            "name": "catch obj-frisbee",
+            "text": "a photo of a person catching a frisbee",
+            "valid_id": 108,
+            "ann_id": 109,
+            "ann_hoi_pair": [
+                16,
+                34
+            ],
+            "valid_hoi_pair": [
+                13,
+                29
+            ],
+            "valid_rel_id": 13,
+            "ann_rel_id": 16,
+            "valid_obj_id": 29,
+            "ann_obj_id": 34,
+            "counts_train": 224,
+            "counts_test": 175
+        },
+        "110": {
+            "name": "hold obj-frisbee",
+            "text": "a photo of a person holding a frisbee",
+            "valid_id": 109,
+            "ann_id": 110,
+            "ann_hoi_pair": [
+                1,
+                34
+            ],
+            "valid_hoi_pair": [
+                0,
+                29
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 29,
+            "ann_obj_id": 34,
+            "counts_train": 186,
+            "counts_test": 137
+        },
+        "111": {
+            "name": "look obj-frisbee",
+            "text": "a photo of a person looking at a frisbee",
+            "valid_id": 110,
+            "ann_id": 111,
+            "ann_hoi_pair": [
+                6,
+                34
+            ],
+            "valid_hoi_pair": [
+                3,
+                29
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 29,
+            "ann_obj_id": 34,
+            "counts_train": 390,
+            "counts_test": 307
+        },
+        "112": {
+            "name": "throw obj-frisbee",
+            "text": "a photo of a person throwing a frisbee",
+            "valid_id": 111,
+            "ann_id": 112,
+            "ann_hoi_pair": [
+                15,
+                34
+            ],
+            "valid_hoi_pair": [
+                12,
+                29
+            ],
+            "valid_rel_id": 12,
+            "ann_rel_id": 15,
+            "valid_obj_id": 29,
+            "ann_obj_id": 34,
+            "counts_train": 170,
+            "counts_test": 134
+        },
+        "113": {
+            "name": "look obj-giraffe",
+            "text": "a photo of a person looking at a giraffe",
+            "valid_id": 112,
+            "ann_id": 113,
+            "ann_hoi_pair": [
+                6,
+                25
+            ],
+            "valid_hoi_pair": [
+                3,
+                23
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 23,
+            "ann_obj_id": 25,
+            "counts_train": 4,
+            "counts_test": 0
+        },
+        "114": {
+            "name": "hold obj-hair drier",
+            "text": "a photo of a person holding a hair drier",
+            "valid_id": 113,
+            "ann_id": 114,
+            "ann_hoi_pair": [
+                1,
+                89
+            ],
+            "valid_hoi_pair": [
+                0,
+                78
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 78,
+            "ann_obj_id": 89,
+            "counts_train": 2,
+            "counts_test": 1
+        },
+        "115": {
+            "name": "carry obj-handbag",
+            "text": "a photo of a person carrying a handbag",
+            "valid_id": 114,
+            "ann_id": 115,
+            "ann_hoi_pair": [
+                14,
+                31
+            ],
+            "valid_hoi_pair": [
+                11,
+                26
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 26,
+            "ann_obj_id": 31,
+            "counts_train": 92,
+            "counts_test": 82
+        },
+        "116": {
+            "name": "hold obj-handbag",
+            "text": "a photo of a person holding a handbag",
+            "valid_id": 115,
+            "ann_id": 116,
+            "ann_hoi_pair": [
+                1,
+                31
+            ],
+            "valid_hoi_pair": [
+                0,
+                26
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 26,
+            "ann_obj_id": 31,
+            "counts_train": 88,
+            "counts_test": 77
+        },
+        "117": {
+            "name": "look obj-handbag",
+            "text": "a photo of a person looking at a handbag",
+            "valid_id": 116,
+            "ann_id": 117,
+            "ann_hoi_pair": [
+                6,
+                31
+            ],
+            "valid_hoi_pair": [
+                3,
+                26
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 26,
+            "ann_obj_id": 31,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "118": {
+            "name": "sit instr-handbag",
+            "text": "a photo of a person sitting on a handbag",
+            "valid_id": 117,
+            "ann_id": 118,
+            "ann_hoi_pair": [
+                3,
+                31
+            ],
+            "valid_hoi_pair": [
+                1,
+                26
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 26,
+            "ann_obj_id": 31,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "119": {
+            "name": "hold obj-horse",
+            "text": "a photo of a person holding a horse",
+            "valid_id": 118,
+            "ann_id": 119,
+            "ann_hoi_pair": [
+                1,
+                19
+            ],
+            "valid_hoi_pair": [
+                0,
+                17
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 17,
+            "ann_obj_id": 19,
+            "counts_train": 45,
+            "counts_test": 81
+        },
+        "120": {
+            "name": "look obj-horse",
+            "text": "a photo of a person looking at a horse",
+            "valid_id": 119,
+            "ann_id": 120,
+            "ann_hoi_pair": [
+                6,
+                19
+            ],
+            "valid_hoi_pair": [
+                3,
+                17
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 17,
+            "ann_obj_id": 19,
+            "counts_train": 7,
+            "counts_test": 8
+        },
+        "121": {
+            "name": "ride instr-horse",
+            "text": "a photo of a person riding a horse",
+            "valid_id": 120,
+            "ann_id": 121,
+            "ann_hoi_pair": [
+                4,
+                19
+            ],
+            "valid_hoi_pair": [
+                2,
+                17
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 17,
+            "ann_obj_id": 19,
+            "counts_train": 108,
+            "counts_test": 152
+        },
+        "122": {
+            "name": "sit instr-horse",
+            "text": "a photo of a person sitting on a horse",
+            "valid_id": 121,
+            "ann_id": 122,
+            "ann_hoi_pair": [
+                3,
+                19
+            ],
+            "valid_hoi_pair": [
+                1,
+                17
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 17,
+            "ann_obj_id": 19,
+            "counts_train": 96,
+            "counts_test": 136
+        },
+        "123": {
+            "name": "cut obj-hot dog",
+            "text": "a photo of a person cutting a hot dog",
+            "valid_id": 122,
+            "ann_id": 123,
+            "ann_hoi_pair": [
+                18,
+                58
+            ],
+            "valid_hoi_pair": [
+                15,
+                52
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 52,
+            "ann_obj_id": 58,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "124": {
+            "name": "eat obj-hot dog",
+            "text": "a photo of a person eating a hot dog",
+            "valid_id": 123,
+            "ann_id": 124,
+            "ann_hoi_pair": [
+                9,
+                58
+            ],
+            "valid_hoi_pair": [
+                6,
+                52
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 52,
+            "ann_obj_id": 58,
+            "counts_train": 61,
+            "counts_test": 63
+        },
+        "125": {
+            "name": "hold obj-hot dog",
+            "text": "a photo of a person holding a hot dog",
+            "valid_id": 124,
+            "ann_id": 125,
+            "ann_hoi_pair": [
+                1,
+                58
+            ],
+            "valid_hoi_pair": [
+                0,
+                52
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 52,
+            "ann_obj_id": 58,
+            "counts_train": 60,
+            "counts_test": 53
+        },
+        "126": {
+            "name": "look obj-hot dog",
+            "text": "a photo of a person looking at a hot dog",
+            "valid_id": 125,
+            "ann_id": 126,
+            "ann_hoi_pair": [
+                6,
+                58
+            ],
+            "valid_hoi_pair": [
+                3,
+                52
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 52,
+            "ann_obj_id": 58,
+            "counts_train": 11,
+            "counts_test": 11
+        },
+        "127": {
+            "name": "hold obj-keyboard",
+            "text": "a photo of a person holding a keyboard",
+            "valid_id": 126,
+            "ann_id": 127,
+            "ann_hoi_pair": [
+                1,
+                76
+            ],
+            "valid_hoi_pair": [
+                0,
+                66
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 66,
+            "ann_obj_id": 76,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "128": {
+            "name": "look obj-keyboard",
+            "text": "a photo of a person looking at a keyboard",
+            "valid_id": 127,
+            "ann_id": 128,
+            "ann_hoi_pair": [
+                6,
+                76
+            ],
+            "valid_hoi_pair": [
+                3,
+                66
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 66,
+            "ann_obj_id": 76,
+            "counts_train": 4,
+            "counts_test": 2
+        },
+        "129": {
+            "name": "carry obj-kite",
+            "text": "a photo of a person carrying a kite",
+            "valid_id": 128,
+            "ann_id": 129,
+            "ann_hoi_pair": [
+                14,
+                38
+            ],
+            "valid_hoi_pair": [
+                11,
+                33
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 33,
+            "ann_obj_id": 38,
+            "counts_train": 6,
+            "counts_test": 4
+        },
+        "130": {
+            "name": "hold obj-kite",
+            "text": "a photo of a person holding a kite",
+            "valid_id": 129,
+            "ann_id": 130,
+            "ann_hoi_pair": [
+                1,
+                38
+            ],
+            "valid_hoi_pair": [
+                0,
+                33
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 33,
+            "ann_obj_id": 38,
+            "counts_train": 9,
+            "counts_test": 19
+        },
+        "131": {
+            "name": "look obj-kite",
+            "text": "a photo of a person looking at a kite",
+            "valid_id": 130,
+            "ann_id": 131,
+            "ann_hoi_pair": [
+                6,
+                38
+            ],
+            "valid_hoi_pair": [
+                3,
+                33
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 33,
+            "ann_obj_id": 38,
+            "counts_train": 15,
+            "counts_test": 10
+        },
+        "132": {
+            "name": "cut instr-knife",
+            "text": "a photo of a person cutting with a knife",
+            "valid_id": 131,
+            "ann_id": 132,
+            "ann_hoi_pair": [
+                17,
+                49
+            ],
+            "valid_hoi_pair": [
+                14,
+                43
+            ],
+            "valid_rel_id": 14,
+            "ann_rel_id": 17,
+            "valid_obj_id": 43,
+            "ann_obj_id": 49,
+            "counts_train": 207,
+            "counts_test": 179
+        },
+        "133": {
+            "name": "eat instr-knife",
+            "text": "a photo of a person eating with a knife",
+            "valid_id": 132,
+            "ann_id": 133,
+            "ann_hoi_pair": [
+                10,
+                49
+            ],
+            "valid_hoi_pair": [
+                7,
+                43
+            ],
+            "valid_rel_id": 7,
+            "ann_rel_id": 10,
+            "valid_obj_id": 43,
+            "ann_obj_id": 49,
+            "counts_train": 28,
+            "counts_test": 13
+        },
+        "134": {
+            "name": "hold obj-knife",
+            "text": "a photo of a person holding a knife",
+            "valid_id": 133,
+            "ann_id": 134,
+            "ann_hoi_pair": [
+                1,
+                49
+            ],
+            "valid_hoi_pair": [
+                0,
+                43
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 43,
+            "ann_obj_id": 49,
+            "counts_train": 197,
+            "counts_test": 175
+        },
+        "135": {
+            "name": "look obj-knife",
+            "text": "a photo of a person looking at a knife",
+            "valid_id": 134,
+            "ann_id": 135,
+            "ann_hoi_pair": [
+                6,
+                49
+            ],
+            "valid_hoi_pair": [
+                3,
+                43
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 43,
+            "ann_obj_id": 49,
+            "counts_train": 43,
+            "counts_test": 31
+        },
+        "136": {
+            "name": "carry obj-laptop",
+            "text": "a photo of a person carrying a laptop",
+            "valid_id": 135,
+            "ann_id": 136,
+            "ann_hoi_pair": [
+                14,
+                73
+            ],
+            "valid_hoi_pair": [
+                11,
+                63
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 63,
+            "ann_obj_id": 73,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "137": {
+            "name": "cut obj-laptop",
+            "text": "a photo of a person cutting a laptop",
+            "valid_id": 136,
+            "ann_id": 137,
+            "ann_hoi_pair": [
+                18,
+                73
+            ],
+            "valid_hoi_pair": [
+                15,
+                63
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 63,
+            "ann_obj_id": 73,
+            "counts_train": 0,
+            "counts_test": 2
+        },
+        "138": {
+            "name": "hold obj-laptop",
+            "text": "a photo of a person holding a laptop",
+            "valid_id": 137,
+            "ann_id": 138,
+            "ann_hoi_pair": [
+                1,
+                73
+            ],
+            "valid_hoi_pair": [
+                0,
+                63
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 63,
+            "ann_obj_id": 73,
+            "counts_train": 78,
+            "counts_test": 58
+        },
+        "139": {
+            "name": "look obj-laptop",
+            "text": "a photo of a person looking at a laptop",
+            "valid_id": 138,
+            "ann_id": 139,
+            "ann_hoi_pair": [
+                6,
+                73
+            ],
+            "valid_hoi_pair": [
+                3,
+                63
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 63,
+            "ann_obj_id": 73,
+            "counts_train": 291,
+            "counts_test": 277
+        },
+        "140": {
+            "name": "work_on_computer instr-laptop",
+            "text": "a photo of a person working on a laptop",
+            "valid_id": 139,
+            "ann_id": 140,
+            "ann_hoi_pair": [
+                20,
+                73
+            ],
+            "valid_hoi_pair": [
+                16,
+                63
+            ],
+            "valid_rel_id": 16,
+            "ann_rel_id": 20,
+            "valid_obj_id": 63,
+            "ann_obj_id": 73,
+            "counts_train": 398,
+            "counts_test": 375
+        },
+        "141": {
+            "name": "hold obj-motorcycle",
+            "text": "a photo of a person holding a motorcycle",
+            "valid_id": 140,
+            "ann_id": 141,
+            "ann_hoi_pair": [
+                1,
+                4
+            ],
+            "valid_hoi_pair": [
+                0,
+                3
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 3,
+            "ann_obj_id": 4,
+            "counts_train": 68,
+            "counts_test": 84
+        },
+        "142": {
+            "name": "look obj-motorcycle",
+            "text": "a photo of a person looking at a motorcycle",
+            "valid_id": 141,
+            "ann_id": 142,
+            "ann_hoi_pair": [
+                6,
+                4
+            ],
+            "valid_hoi_pair": [
+                3,
+                3
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 3,
+            "ann_obj_id": 4,
+            "counts_train": 2,
+            "counts_test": 2
+        },
+        "143": {
+            "name": "ride instr-motorcycle",
+            "text": "a photo of a person riding a motorcycle",
+            "valid_id": 142,
+            "ann_id": 143,
+            "ann_hoi_pair": [
+                4,
+                4
+            ],
+            "valid_hoi_pair": [
+                2,
+                3
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 3,
+            "ann_obj_id": 4,
+            "counts_train": 126,
+            "counts_test": 162
+        },
+        "144": {
+            "name": "sit instr-motorcycle",
+            "text": "a photo of a person sitting on a motorcycle",
+            "valid_id": 143,
+            "ann_id": 144,
+            "ann_hoi_pair": [
+                3,
+                4
+            ],
+            "valid_hoi_pair": [
+                1,
+                3
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 3,
+            "ann_obj_id": 4,
+            "counts_train": 119,
+            "counts_test": 160
+        },
+        "145": {
+            "name": "hold obj-mouse",
+            "text": "a photo of a person holding a mouse",
+            "valid_id": 144,
+            "ann_id": 145,
+            "ann_hoi_pair": [
+                1,
+                74
+            ],
+            "valid_hoi_pair": [
+                0,
+                64
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 64,
+            "ann_obj_id": 74,
+            "counts_train": 11,
+            "counts_test": 25
+        },
+        "146": {
+            "name": "look obj-mouse",
+            "text": "a photo of a person looking at a mouse",
+            "valid_id": 145,
+            "ann_id": 146,
+            "ann_hoi_pair": [
+                6,
+                74
+            ],
+            "valid_hoi_pair": [
+                3,
+                64
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 64,
+            "ann_obj_id": 74,
+            "counts_train": 1,
+            "counts_test": 2
+        },
+        "147": {
+            "name": "carry obj-orange",
+            "text": "a photo of a person carrying an orange",
+            "valid_id": 146,
+            "ann_id": 147,
+            "ann_hoi_pair": [
+                14,
+                55
+            ],
+            "valid_hoi_pair": [
+                11,
+                49
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 49,
+            "ann_obj_id": 55,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "148": {
+            "name": "cut obj-orange",
+            "text": "a photo of a person cutting a orange",
+            "valid_id": 147,
+            "ann_id": 148,
+            "ann_hoi_pair": [
+                18,
+                55
+            ],
+            "valid_hoi_pair": [
+                15,
+                49
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 49,
+            "ann_obj_id": 55,
+            "counts_train": 0,
+            "counts_test": 2
+        },
+        "149": {
+            "name": "eat obj-orange",
+            "text": "a photo of a person eating an orange",
+            "valid_id": 148,
+            "ann_id": 149,
+            "ann_hoi_pair": [
+                9,
+                55
+            ],
+            "valid_hoi_pair": [
+                6,
+                49
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 49,
+            "ann_obj_id": 55,
+            "counts_train": 4,
+            "counts_test": 1
+        },
+        "150": {
+            "name": "hold obj-orange",
+            "text": "a photo of a person holding an orange",
+            "valid_id": 149,
+            "ann_id": 150,
+            "ann_hoi_pair": [
+                1,
+                55
+            ],
+            "valid_hoi_pair": [
+                0,
+                49
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 49,
+            "ann_obj_id": 55,
+            "counts_train": 3,
+            "counts_test": 0
+        },
+        "151": {
+            "name": "carry obj-person",
+            "text": "a photo of a person carrying a person",
+            "valid_id": 150,
+            "ann_id": 151,
+            "ann_hoi_pair": [
+                14,
+                1
+            ],
+            "valid_hoi_pair": [
+                11,
+                0
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 0,
+            "ann_obj_id": 1,
+            "counts_train": 2,
+            "counts_test": 2
+        },
+        "152": {
+            "name": "cut obj-person",
+            "text": "a photo of a person cutting a person",
+            "valid_id": 151,
+            "ann_id": 152,
+            "ann_hoi_pair": [
+                18,
+                1
+            ],
+            "valid_hoi_pair": [
+                15,
+                0
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 0,
+            "ann_obj_id": 1,
+            "counts_train": 6,
+            "counts_test": 5
+        },
+        "153": {
+            "name": "hold obj-person",
+            "text": "a photo of a person holding a person",
+            "valid_id": 152,
+            "ann_id": 153,
+            "ann_hoi_pair": [
+                1,
+                1
+            ],
+            "valid_hoi_pair": [
+                0,
+                0
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 0,
+            "ann_obj_id": 1,
+            "counts_train": 50,
+            "counts_test": 42
+        },
+        "154": {
+            "name": "look obj-person",
+            "text": "a photo of a person looking at a person",
+            "valid_id": 153,
+            "ann_id": 154,
+            "ann_hoi_pair": [
+                6,
+                1
+            ],
+            "valid_hoi_pair": [
+                3,
+                0
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 0,
+            "ann_obj_id": 1,
+            "counts_train": 445,
+            "counts_test": 392
+        },
+        "155": {
+            "name": "cut obj-pizza",
+            "text": "a photo of a person cutting a pizza",
+            "valid_id": 154,
+            "ann_id": 155,
+            "ann_hoi_pair": [
+                18,
+                59
+            ],
+            "valid_hoi_pair": [
+                15,
+                53
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 53,
+            "ann_obj_id": 59,
+            "counts_train": 32,
+            "counts_test": 24
+        },
+        "156": {
+            "name": "eat obj-pizza",
+            "text": "a photo of a person eating a pizza",
+            "valid_id": 155,
+            "ann_id": 156,
+            "ann_hoi_pair": [
+                9,
+                59
+            ],
+            "valid_hoi_pair": [
+                6,
+                53
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 53,
+            "ann_obj_id": 59,
+            "counts_train": 110,
+            "counts_test": 96
+        },
+        "157": {
+            "name": "hold obj-pizza",
+            "text": "a photo of a person holding a pizza",
+            "valid_id": 156,
+            "ann_id": 157,
+            "ann_hoi_pair": [
+                1,
+                59
+            ],
+            "valid_hoi_pair": [
+                0,
+                53
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 53,
+            "ann_obj_id": 59,
+            "counts_train": 67,
+            "counts_test": 63
+        },
+        "158": {
+            "name": "look obj-pizza",
+            "text": "a photo of a person looking at a pizza",
+            "valid_id": 157,
+            "ann_id": 158,
+            "ann_hoi_pair": [
+                6,
+                59
+            ],
+            "valid_hoi_pair": [
+                3,
+                53
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 53,
+            "ann_obj_id": 59,
+            "counts_train": 37,
+            "counts_test": 33
+        },
+        "159": {
+            "name": "look obj-potted plant",
+            "text": "a photo of a person looking at a potted plant",
+            "valid_id": 158,
+            "ann_id": 159,
+            "ann_hoi_pair": [
+                6,
+                64
+            ],
+            "valid_hoi_pair": [
+                3,
+                58
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 58,
+            "ann_obj_id": 64,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "160": {
+            "name": "hold obj-refrigerator",
+            "text": "a photo of a person holding a refrigerator",
+            "valid_id": 159,
+            "ann_id": 160,
+            "ann_hoi_pair": [
+                1,
+                82
+            ],
+            "valid_hoi_pair": [
+                0,
+                72
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 72,
+            "ann_obj_id": 82,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "161": {
+            "name": "look obj-refrigerator",
+            "text": "a photo of a person looking at a refrigerator",
+            "valid_id": 160,
+            "ann_id": 161,
+            "ann_hoi_pair": [
+                6,
+                82
+            ],
+            "valid_hoi_pair": [
+                3,
+                72
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 72,
+            "ann_obj_id": 82,
+            "counts_train": 4,
+            "counts_test": 0
+        },
+        "162": {
+            "name": "hold obj-remote",
+            "text": "a photo of a person holding a remote",
+            "valid_id": 161,
+            "ann_id": 162,
+            "ann_hoi_pair": [
+                1,
+                75
+            ],
+            "valid_hoi_pair": [
+                0,
+                65
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 65,
+            "ann_obj_id": 75,
+            "counts_train": 58,
+            "counts_test": 52
+        },
+        "163": {
+            "name": "look obj-remote",
+            "text": "a photo of a person looking at a remote",
+            "valid_id": 162,
+            "ann_id": 163,
+            "ann_hoi_pair": [
+                6,
+                75
+            ],
+            "valid_hoi_pair": [
+                3,
+                65
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 65,
+            "ann_obj_id": 75,
+            "counts_train": 3,
+            "counts_test": 2
+        },
+        "164": {
+            "name": "cut obj-sandwich",
+            "text": "a photo of a person cutting a sandwich",
+            "valid_id": 163,
+            "ann_id": 164,
+            "ann_hoi_pair": [
+                18,
+                54
+            ],
+            "valid_hoi_pair": [
+                15,
+                48
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 48,
+            "ann_obj_id": 54,
+            "counts_train": 7,
+            "counts_test": 4
+        },
+        "165": {
+            "name": "eat obj-sandwich",
+            "text": "a photo of a person eating a sandwich",
+            "valid_id": 164,
+            "ann_id": 165,
+            "ann_hoi_pair": [
+                9,
+                54
+            ],
+            "valid_hoi_pair": [
+                6,
+                48
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 48,
+            "ann_obj_id": 54,
+            "counts_train": 59,
+            "counts_test": 41
+        },
+        "166": {
+            "name": "hold obj-sandwich",
+            "text": "a photo of a person holding a sandwich",
+            "valid_id": 165,
+            "ann_id": 166,
+            "ann_hoi_pair": [
+                1,
+                54
+            ],
+            "valid_hoi_pair": [
+                0,
+                48
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 48,
+            "ann_obj_id": 54,
+            "counts_train": 45,
+            "counts_test": 30
+        },
+        "167": {
+            "name": "look obj-sandwich",
+            "text": "a photo of a person looking at a sandwich",
+            "valid_id": 166,
+            "ann_id": 167,
+            "ann_hoi_pair": [
+                6,
+                54
+            ],
+            "valid_hoi_pair": [
+                3,
+                48
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 48,
+            "ann_obj_id": 54,
+            "counts_train": 14,
+            "counts_test": 10
+        },
+        "168": {
+            "name": "cut instr-scissors",
+            "text": "a photo of a person cutting with a scissors",
+            "valid_id": 167,
+            "ann_id": 168,
+            "ann_hoi_pair": [
+                17,
+                87
+            ],
+            "valid_hoi_pair": [
+                14,
+                76
+            ],
+            "valid_rel_id": 14,
+            "ann_rel_id": 17,
+            "valid_obj_id": 76,
+            "ann_obj_id": 87,
+            "counts_train": 37,
+            "counts_test": 48
+        },
+        "169": {
+            "name": "hold obj-scissors",
+            "text": "a photo of a person holding a scissors",
+            "valid_id": 168,
+            "ann_id": 169,
+            "ann_hoi_pair": [
+                1,
+                87
+            ],
+            "valid_hoi_pair": [
+                0,
+                76
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 76,
+            "ann_obj_id": 87,
+            "counts_train": 41,
+            "counts_test": 46
+        },
+        "170": {
+            "name": "look obj-scissors",
+            "text": "a photo of a person looking at a scissors",
+            "valid_id": 169,
+            "ann_id": 170,
+            "ann_hoi_pair": [
+                6,
+                87
+            ],
+            "valid_hoi_pair": [
+                3,
+                76
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 76,
+            "ann_obj_id": 87,
+            "counts_train": 22,
+            "counts_test": 23
+        },
+        "171": {
+            "name": "carry obj-sheep",
+            "text": "a photo of a person carrying a sheep",
+            "valid_id": 170,
+            "ann_id": 171,
+            "ann_hoi_pair": [
+                14,
+                20
+            ],
+            "valid_hoi_pair": [
+                11,
+                18
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 18,
+            "ann_obj_id": 20,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "172": {
+            "name": "cut obj-sheep",
+            "text": "a photo of a person cutting a sheep",
+            "valid_id": 171,
+            "ann_id": 172,
+            "ann_hoi_pair": [
+                18,
+                20
+            ],
+            "valid_hoi_pair": [
+                15,
+                18
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 18,
+            "ann_obj_id": 20,
+            "counts_train": 6,
+            "counts_test": 0
+        },
+        "173": {
+            "name": "hold obj-sheep",
+            "text": "a photo of a person holding a sheep",
+            "valid_id": 172,
+            "ann_id": 173,
+            "ann_hoi_pair": [
+                1,
+                20
+            ],
+            "valid_hoi_pair": [
+                0,
+                18
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 18,
+            "ann_obj_id": 20,
+            "counts_train": 2,
+            "counts_test": 3
+        },
+        "174": {
+            "name": "look obj-sheep",
+            "text": "a photo of a person looking at a sheep",
+            "valid_id": 173,
+            "ann_id": 174,
+            "ann_hoi_pair": [
+                6,
+                20
+            ],
+            "valid_hoi_pair": [
+                3,
+                18
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 18,
+            "ann_obj_id": 20,
+            "counts_train": 7,
+            "counts_test": 2
+        },
+        "175": {
+            "name": "carry obj-skateboard",
+            "text": "a photo of a person carrying a skateboard",
+            "valid_id": 174,
+            "ann_id": 175,
+            "ann_hoi_pair": [
+                14,
+                41
+            ],
+            "valid_hoi_pair": [
+                11,
+                36
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 11,
+            "counts_test": 2
+        },
+        "176": {
+            "name": "cut obj-skateboard",
+            "text": "a photo of a person cutting a skateboard",
+            "valid_id": 175,
+            "ann_id": 176,
+            "ann_hoi_pair": [
+                18,
+                41
+            ],
+            "valid_hoi_pair": [
+                15,
+                36
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "177": {
+            "name": "hold obj-skateboard",
+            "text": "a photo of a person holding a skateboard",
+            "valid_id": 176,
+            "ann_id": 177,
+            "ann_hoi_pair": [
+                1,
+                41
+            ],
+            "valid_hoi_pair": [
+                0,
+                36
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 56,
+            "counts_test": 41
+        },
+        "178": {
+            "name": "jump instr-skateboard",
+            "text": "a photo of a person jumping on a skateboard",
+            "valid_id": 177,
+            "ann_id": 178,
+            "ann_hoi_pair": [
+                11,
+                41
+            ],
+            "valid_hoi_pair": [
+                8,
+                36
+            ],
+            "valid_rel_id": 8,
+            "ann_rel_id": 11,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 278,
+            "counts_test": 235
+        },
+        "179": {
+            "name": "look obj-skateboard",
+            "text": "a photo of a person looking at a skateboard",
+            "valid_id": 178,
+            "ann_id": 179,
+            "ann_hoi_pair": [
+                6,
+                41
+            ],
+            "valid_hoi_pair": [
+                3,
+                36
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 338,
+            "counts_test": 270
+        },
+        "180": {
+            "name": "skateboard instr-skateboard",
+            "text": "a photo of a person skateboarding with a skateboard",
+            "valid_id": 179,
+            "ann_id": 180,
+            "ann_hoi_pair": [
+                23,
+                41
+            ],
+            "valid_hoi_pair": [
+                19,
+                36
+            ],
+            "valid_rel_id": 19,
+            "ann_rel_id": 23,
+            "valid_obj_id": 36,
+            "ann_obj_id": 41,
+            "counts_train": 467,
+            "counts_test": 402
+        },
+        "181": {
+            "name": "carry obj-skis",
+            "text": "a photo of a person carrying a skis",
+            "valid_id": 180,
+            "ann_id": 181,
+            "ann_hoi_pair": [
+                14,
+                35
+            ],
+            "valid_hoi_pair": [
+                11,
+                30
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 30,
+            "ann_obj_id": 35,
+            "counts_train": 7,
+            "counts_test": 6
+        },
+        "182": {
+            "name": "hold obj-skis",
+            "text": "a photo of a person holding a skis",
+            "valid_id": 181,
+            "ann_id": 182,
+            "ann_hoi_pair": [
+                1,
+                35
+            ],
+            "valid_hoi_pair": [
+                0,
+                30
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 30,
+            "ann_obj_id": 35,
+            "counts_train": 49,
+            "counts_test": 57
+        },
+        "183": {
+            "name": "jump instr-skis",
+            "text": "a photo of a person jumping on a skis",
+            "valid_id": 182,
+            "ann_id": 183,
+            "ann_hoi_pair": [
+                11,
+                35
+            ],
+            "valid_hoi_pair": [
+                8,
+                30
+            ],
+            "valid_rel_id": 8,
+            "ann_rel_id": 11,
+            "valid_obj_id": 30,
+            "ann_obj_id": 35,
+            "counts_train": 20,
+            "counts_test": 39
+        },
+        "184": {
+            "name": "look obj-skis",
+            "text": "a photo of a person looking at a skis",
+            "valid_id": 183,
+            "ann_id": 184,
+            "ann_hoi_pair": [
+                6,
+                35
+            ],
+            "valid_hoi_pair": [
+                3,
+                30
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 30,
+            "ann_obj_id": 35,
+            "counts_train": 45,
+            "counts_test": 49
+        },
+        "185": {
+            "name": "ski instr-skis",
+            "text": "a photo of a person skiing with a skis",
+            "valid_id": 184,
+            "ann_id": 185,
+            "ann_hoi_pair": [
+                21,
+                35
+            ],
+            "valid_hoi_pair": [
+                17,
+                30
+            ],
+            "valid_rel_id": 17,
+            "ann_rel_id": 21,
+            "valid_obj_id": 30,
+            "ann_obj_id": 35,
+            "counts_train": 437,
+            "counts_test": 360
+        },
+        "186": {
+            "name": "carry obj-snowboard",
+            "text": "a photo of a person carrying a snowboard",
+            "valid_id": 185,
+            "ann_id": 186,
+            "ann_hoi_pair": [
+                14,
+                36
+            ],
+            "valid_hoi_pair": [
+                11,
+                31
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 31,
+            "ann_obj_id": 36,
+            "counts_train": 12,
+            "counts_test": 8
+        },
+        "187": {
+            "name": "hold obj-snowboard",
+            "text": "a photo of a person holding a snowboard",
+            "valid_id": 186,
+            "ann_id": 187,
+            "ann_hoi_pair": [
+                1,
+                36
+            ],
+            "valid_hoi_pair": [
+                0,
+                31
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 31,
+            "ann_obj_id": 36,
+            "counts_train": 57,
+            "counts_test": 57
+        },
+        "188": {
+            "name": "jump instr-snowboard",
+            "text": "a photo of a person jumping on a snowboard",
+            "valid_id": 187,
+            "ann_id": 188,
+            "ann_hoi_pair": [
+                11,
+                36
+            ],
+            "valid_hoi_pair": [
+                8,
+                31
+            ],
+            "valid_rel_id": 8,
+            "ann_rel_id": 11,
+            "valid_obj_id": 31,
+            "ann_obj_id": 36,
+            "counts_train": 165,
+            "counts_test": 97
+        },
+        "189": {
+            "name": "look obj-snowboard",
+            "text": "a photo of a person looking at a snowboard",
+            "valid_id": 188,
+            "ann_id": 189,
+            "ann_hoi_pair": [
+                6,
+                36
+            ],
+            "valid_hoi_pair": [
+                3,
+                31
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 31,
+            "ann_obj_id": 36,
+            "counts_train": 156,
+            "counts_test": 82
+        },
+        "190": {
+            "name": "snowboard instr-snowboard",
+            "text": "a photo of a person snowboarding with a snowboard",
+            "valid_id": 189,
+            "ann_id": 190,
+            "ann_hoi_pair": [
+                29,
+                36
+            ],
+            "valid_hoi_pair": [
+                23,
+                31
+            ],
+            "valid_rel_id": 23,
+            "ann_rel_id": 29,
+            "valid_obj_id": 31,
+            "ann_obj_id": 36,
+            "counts_train": 367,
+            "counts_test": 261
+        },
+        "191": {
+            "name": "eat instr-spoon",
+            "text": "a photo of a person eating with a spoon",
+            "valid_id": 190,
+            "ann_id": 191,
+            "ann_hoi_pair": [
+                10,
+                50
+            ],
+            "valid_hoi_pair": [
+                7,
+                44
+            ],
+            "valid_rel_id": 7,
+            "ann_rel_id": 10,
+            "valid_obj_id": 44,
+            "ann_obj_id": 50,
+            "counts_train": 38,
+            "counts_test": 32
+        },
+        "192": {
+            "name": "hold obj-spoon",
+            "text": "a photo of a person holding a spoon",
+            "valid_id": 191,
+            "ann_id": 192,
+            "ann_hoi_pair": [
+                1,
+                50
+            ],
+            "valid_hoi_pair": [
+                0,
+                44
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 44,
+            "ann_obj_id": 50,
+            "counts_train": 42,
+            "counts_test": 26
+        },
+        "193": {
+            "name": "look obj-spoon",
+            "text": "a photo of a person looking at a spoon",
+            "valid_id": 192,
+            "ann_id": 193,
+            "ann_hoi_pair": [
+                6,
+                50
+            ],
+            "valid_hoi_pair": [
+                3,
+                44
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 44,
+            "ann_obj_id": 50,
+            "counts_train": 12,
+            "counts_test": 5
+        },
+        "194": {
+            "name": "carry obj-sports ball",
+            "text": "a photo of a person carrying a sports ball",
+            "valid_id": 193,
+            "ann_id": 194,
+            "ann_hoi_pair": [
+                14,
+                37
+            ],
+            "valid_hoi_pair": [
+                11,
+                32
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 6,
+            "counts_test": 0
+        },
+        "195": {
+            "name": "catch obj-sports ball",
+            "text": "a photo of a person catching a sports ball",
+            "valid_id": 194,
+            "ann_id": 195,
+            "ann_hoi_pair": [
+                16,
+                37
+            ],
+            "valid_hoi_pair": [
+                13,
+                32
+            ],
+            "valid_rel_id": 13,
+            "ann_rel_id": 16,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 32,
+            "counts_test": 26
+        },
+        "196": {
+            "name": "hit obj-sports ball",
+            "text": "a photo of a person hitting a sports ball",
+            "valid_id": 195,
+            "ann_id": 196,
+            "ann_hoi_pair": [
+                8,
+                37
+            ],
+            "valid_hoi_pair": [
+                5,
+                32
+            ],
+            "valid_rel_id": 5,
+            "ann_rel_id": 8,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 228,
+            "counts_test": 226
+        },
+        "197": {
+            "name": "hold obj-sports ball",
+            "text": "a photo of a person holding a sports ball",
+            "valid_id": 196,
+            "ann_id": 197,
+            "ann_hoi_pair": [
+                1,
+                37
+            ],
+            "valid_hoi_pair": [
+                0,
+                32
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 54,
+            "counts_test": 44
+        },
+        "198": {
+            "name": "kick obj-sports ball",
+            "text": "a photo of a person kicking a sports ball",
+            "valid_id": 197,
+            "ann_id": 198,
+            "ann_hoi_pair": [
+                26,
+                37
+            ],
+            "valid_hoi_pair": [
+                21,
+                32
+            ],
+            "valid_rel_id": 21,
+            "ann_rel_id": 26,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 134,
+            "counts_test": 163
+        },
+        "199": {
+            "name": "look obj-sports ball",
+            "text": "a photo of a person looking at a sports ball",
+            "valid_id": 198,
+            "ann_id": 199,
+            "ann_hoi_pair": [
+                6,
+                37
+            ],
+            "valid_hoi_pair": [
+                3,
+                32
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 521,
+            "counts_test": 598
+        },
+        "200": {
+            "name": "throw obj-sports ball",
+            "text": "a photo of a person throwing a sports ball",
+            "valid_id": 199,
+            "ann_id": 200,
+            "ann_hoi_pair": [
+                15,
+                37
+            ],
+            "valid_hoi_pair": [
+                12,
+                32
+            ],
+            "valid_rel_id": 12,
+            "ann_rel_id": 15,
+            "valid_obj_id": 32,
+            "ann_obj_id": 37,
+            "counts_train": 91,
+            "counts_test": 80
+        },
+        "201": {
+            "name": "carry obj-suitcase",
+            "text": "a photo of a person carrying a suitcase",
+            "valid_id": 200,
+            "ann_id": 201,
+            "ann_hoi_pair": [
+                14,
+                33
+            ],
+            "valid_hoi_pair": [
+                11,
+                28
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 28,
+            "ann_obj_id": 33,
+            "counts_train": 71,
+            "counts_test": 57
+        },
+        "202": {
+            "name": "hold obj-suitcase",
+            "text": "a photo of a person holding a suitcase",
+            "valid_id": 201,
+            "ann_id": 202,
+            "ann_hoi_pair": [
+                1,
+                33
+            ],
+            "valid_hoi_pair": [
+                0,
+                28
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 28,
+            "ann_obj_id": 33,
+            "counts_train": 99,
+            "counts_test": 84
+        },
+        "203": {
+            "name": "look obj-suitcase",
+            "text": "a photo of a person looking at a suitcase",
+            "valid_id": 202,
+            "ann_id": 203,
+            "ann_hoi_pair": [
+                6,
+                33
+            ],
+            "valid_hoi_pair": [
+                3,
+                28
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 28,
+            "ann_obj_id": 33,
+            "counts_train": 9,
+            "counts_test": 9
+        },
+        "204": {
+            "name": "sit instr-suitcase",
+            "text": "a photo of a person sitting on a suitcase",
+            "valid_id": 203,
+            "ann_id": 204,
+            "ann_hoi_pair": [
+                3,
+                33
+            ],
+            "valid_hoi_pair": [
+                1,
+                28
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 28,
+            "ann_obj_id": 33,
+            "counts_train": 4,
+            "counts_test": 3
+        },
+        "205": {
+            "name": "carry obj-surfboard",
+            "text": "a photo of a person carrying a surfboard",
+            "valid_id": 204,
+            "ann_id": 205,
+            "ann_hoi_pair": [
+                14,
+                42
+            ],
+            "valid_hoi_pair": [
+                11,
+                37
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 37,
+            "ann_obj_id": 42,
+            "counts_train": 105,
+            "counts_test": 109
+        },
+        "206": {
+            "name": "hold obj-surfboard",
+            "text": "a photo of a person holding a surfboard",
+            "valid_id": 205,
+            "ann_id": 206,
+            "ann_hoi_pair": [
+                1,
+                42
+            ],
+            "valid_hoi_pair": [
+                0,
+                37
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 37,
+            "ann_obj_id": 42,
+            "counts_train": 160,
+            "counts_test": 167
+        },
+        "207": {
+            "name": "jump instr-surfboard",
+            "text": "a photo of a person jumping on a surfboard",
+            "valid_id": 206,
+            "ann_id": 207,
+            "ann_hoi_pair": [
+                11,
+                42
+            ],
+            "valid_hoi_pair": [
+                8,
+                37
+            ],
+            "valid_rel_id": 8,
+            "ann_rel_id": 11,
+            "valid_obj_id": 37,
+            "ann_obj_id": 42,
+            "counts_train": 26,
+            "counts_test": 31
+        },
+        "208": {
+            "name": "look obj-surfboard",
+            "text": "a photo of a person looking at a surfboard",
+            "valid_id": 207,
+            "ann_id": 208,
+            "ann_hoi_pair": [
+                6,
+                42
+            ],
+            "valid_hoi_pair": [
+                3,
+                37
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 37,
+            "ann_obj_id": 42,
+            "counts_train": 254,
+            "counts_test": 194
+        },
+        "209": {
+            "name": "surf instr-surfboard",
+            "text": "a photo of a person surfing with a surfboard",
+            "valid_id": 208,
+            "ann_id": 209,
+            "ann_hoi_pair": [
+                22,
+                42
+            ],
+            "valid_hoi_pair": [
+                18,
+                37
+            ],
+            "valid_rel_id": 18,
+            "ann_rel_id": 22,
+            "valid_obj_id": 37,
+            "ann_obj_id": 42,
+            "counts_train": 485,
+            "counts_test": 464
+        },
+        "210": {
+            "name": "carry obj-teddy bear",
+            "text": "a photo of a person carrying a teddy bear",
+            "valid_id": 209,
+            "ann_id": 210,
+            "ann_hoi_pair": [
+                14,
+                88
+            ],
+            "valid_hoi_pair": [
+                11,
+                77
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 77,
+            "ann_obj_id": 88,
+            "counts_train": 2,
+            "counts_test": 2
+        },
+        "211": {
+            "name": "hold obj-teddy bear",
+            "text": "a photo of a person holding a teddy bear",
+            "valid_id": 210,
+            "ann_id": 211,
+            "ann_hoi_pair": [
+                1,
+                88
+            ],
+            "valid_hoi_pair": [
+                0,
+                77
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 77,
+            "ann_obj_id": 88,
+            "counts_train": 18,
+            "counts_test": 19
+        },
+        "212": {
+            "name": "carry obj-tennis racket",
+            "text": "a photo of a person carrying a tennis racket",
+            "valid_id": 211,
+            "ann_id": 212,
+            "ann_hoi_pair": [
+                14,
+                43
+            ],
+            "valid_hoi_pair": [
+                11,
+                38
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 38,
+            "ann_obj_id": 43,
+            "counts_train": 4,
+            "counts_test": 0
+        },
+        "213": {
+            "name": "hit instr-tennis racket",
+            "text": "a photo of a person hitting with a tennis racket",
+            "valid_id": 212,
+            "ann_id": 213,
+            "ann_hoi_pair": [
+                7,
+                43
+            ],
+            "valid_hoi_pair": [
+                4,
+                38
+            ],
+            "valid_rel_id": 4,
+            "ann_rel_id": 7,
+            "valid_obj_id": 38,
+            "ann_obj_id": 43,
+            "counts_train": 233,
+            "counts_test": 230
+        },
+        "214": {
+            "name": "hold obj-tennis racket",
+            "text": "a photo of a person holding a tennis racket",
+            "valid_id": 213,
+            "ann_id": 214,
+            "ann_hoi_pair": [
+                1,
+                43
+            ],
+            "valid_hoi_pair": [
+                0,
+                38
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 38,
+            "ann_obj_id": 43,
+            "counts_train": 269,
+            "counts_test": 258
+        },
+        "215": {
+            "name": "look obj-tennis racket",
+            "text": "a photo of a person looking at a tennis racket",
+            "valid_id": 214,
+            "ann_id": 215,
+            "ann_hoi_pair": [
+                6,
+                43
+            ],
+            "valid_hoi_pair": [
+                3,
+                38
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 38,
+            "ann_obj_id": 43,
+            "counts_train": 3,
+            "counts_test": 9
+        },
+        "216": {
+            "name": "cut obj-tie",
+            "text": "a photo of a person cutting a tie",
+            "valid_id": 215,
+            "ann_id": 216,
+            "ann_hoi_pair": [
+                18,
+                32
+            ],
+            "valid_hoi_pair": [
+                15,
+                27
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 27,
+            "ann_obj_id": 32,
+            "counts_train": 3,
+            "counts_test": 0
+        },
+        "217": {
+            "name": "hold obj-tie",
+            "text": "a photo of a person holding a tie",
+            "valid_id": 216,
+            "ann_id": 217,
+            "ann_hoi_pair": [
+                1,
+                32
+            ],
+            "valid_hoi_pair": [
+                0,
+                27
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 27,
+            "ann_obj_id": 32,
+            "counts_train": 9,
+            "counts_test": 6
+        },
+        "218": {
+            "name": "look obj-tie",
+            "text": "a photo of a person looking at a tie",
+            "valid_id": 217,
+            "ann_id": 218,
+            "ann_hoi_pair": [
+                6,
+                32
+            ],
+            "valid_hoi_pair": [
+                3,
+                27
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 27,
+            "ann_obj_id": 32,
+            "counts_train": 3,
+            "counts_test": 1
+        },
+        "219": {
+            "name": "lay instr-toilet",
+            "text": "a photo of a person laying on a toilet",
+            "valid_id": 218,
+            "ann_id": 219,
+            "ann_hoi_pair": [
+                12,
+                70
+            ],
+            "valid_hoi_pair": [
+                9,
+                61
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 61,
+            "ann_obj_id": 70,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "220": {
+            "name": "look obj-toilet",
+            "text": "a photo of a person looking at a toilet",
+            "valid_id": 219,
+            "ann_id": 220,
+            "ann_hoi_pair": [
+                6,
+                70
+            ],
+            "valid_hoi_pair": [
+                3,
+                61
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 61,
+            "ann_obj_id": 70,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "221": {
+            "name": "sit instr-toilet",
+            "text": "a photo of a person sitting on a toilet",
+            "valid_id": 220,
+            "ann_id": 221,
+            "ann_hoi_pair": [
+                3,
+                70
+            ],
+            "valid_hoi_pair": [
+                1,
+                61
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 61,
+            "ann_obj_id": 70,
+            "counts_train": 5,
+            "counts_test": 7
+        },
+        "222": {
+            "name": "hold obj-toothbrush",
+            "text": "a photo of a person holding a toothbrush",
+            "valid_id": 221,
+            "ann_id": 222,
+            "ann_hoi_pair": [
+                1,
+                90
+            ],
+            "valid_hoi_pair": [
+                0,
+                79
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 79,
+            "ann_obj_id": 90,
+            "counts_train": 9,
+            "counts_test": 10
+        },
+        "223": {
+            "name": "look obj-traffic light",
+            "text": "a photo of a person looking at a traffic light",
+            "valid_id": 222,
+            "ann_id": 223,
+            "ann_hoi_pair": [
+                6,
+                10
+            ],
+            "valid_hoi_pair": [
+                3,
+                9
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 9,
+            "ann_obj_id": 10,
+            "counts_train": 0,
+            "counts_test": 1
+        },
+        "224": {
+            "name": "look obj-train",
+            "text": "a photo of a person looking at a train",
+            "valid_id": 223,
+            "ann_id": 224,
+            "ann_hoi_pair": [
+                6,
+                7
+            ],
+            "valid_hoi_pair": [
+                3,
+                6
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 6,
+            "ann_obj_id": 7,
+            "counts_train": 12,
+            "counts_test": 3
+        },
+        "225": {
+            "name": "ride instr-train",
+            "text": "a photo of a person riding a train",
+            "valid_id": 224,
+            "ann_id": 225,
+            "ann_hoi_pair": [
+                4,
+                7
+            ],
+            "valid_hoi_pair": [
+                2,
+                6
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 6,
+            "ann_obj_id": 7,
+            "counts_train": 24,
+            "counts_test": 15
+        },
+        "226": {
+            "name": "hold obj-truck",
+            "text": "a photo of a person holding a truck",
+            "valid_id": 225,
+            "ann_id": 226,
+            "ann_hoi_pair": [
+                1,
+                8
+            ],
+            "valid_hoi_pair": [
+                0,
+                7
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 7,
+            "ann_obj_id": 8,
+            "counts_train": 1,
+            "counts_test": 1
+        },
+        "227": {
+            "name": "look obj-truck",
+            "text": "a photo of a person looking at a truck",
+            "valid_id": 226,
+            "ann_id": 227,
+            "ann_hoi_pair": [
+                6,
+                8
+            ],
+            "valid_hoi_pair": [
+                3,
+                7
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 7,
+            "ann_obj_id": 8,
+            "counts_train": 4,
+            "counts_test": 3
+        },
+        "228": {
+            "name": "ride instr-truck",
+            "text": "a photo of a person riding a truck",
+            "valid_id": 227,
+            "ann_id": 228,
+            "ann_hoi_pair": [
+                4,
+                8
+            ],
+            "valid_hoi_pair": [
+                2,
+                7
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 7,
+            "ann_obj_id": 8,
+            "counts_train": 6,
+            "counts_test": 16
+        },
+        "229": {
+            "name": "look obj-tv",
+            "text": "a photo of a person looking at a tv",
+            "valid_id": 228,
+            "ann_id": 229,
+            "ann_hoi_pair": [
+                6,
+                72
+            ],
+            "valid_hoi_pair": [
+                3,
+                62
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 62,
+            "ann_obj_id": 72,
+            "counts_train": 29,
+            "counts_test": 34
+        },
+        "230": {
+            "name": "carry obj-umbrella",
+            "text": "a photo of a person carrying a umbrella",
+            "valid_id": 229,
+            "ann_id": 230,
+            "ann_hoi_pair": [
+                14,
+                28
+            ],
+            "valid_hoi_pair": [
+                11,
+                25
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 25,
+            "ann_obj_id": 28,
+            "counts_train": 52,
+            "counts_test": 53
+        },
+        "231": {
+            "name": "hold obj-umbrella",
+            "text": "a photo of a person holding a umbrella",
+            "valid_id": 230,
+            "ann_id": 231,
+            "ann_hoi_pair": [
+                1,
+                28
+            ],
+            "valid_hoi_pair": [
+                0,
+                25
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 25,
+            "ann_obj_id": 28,
+            "counts_train": 70,
+            "counts_test": 64
+        },
+        "232": {
+            "name": "look obj-umbrella",
+            "text": "a photo of a person looking at a umbrella",
+            "valid_id": 231,
+            "ann_id": 232,
+            "ann_hoi_pair": [
+                6,
+                28
+            ],
+            "valid_hoi_pair": [
+                3,
+                25
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 25,
+            "ann_obj_id": 28,
+            "counts_train": 4,
+            "counts_test": 1
+        },
+        "233": {
+            "name": "carry obj-wine glass",
+            "text": "a photo of a person carrying a wine glass",
+            "valid_id": 232,
+            "ann_id": 233,
+            "ann_hoi_pair": [
+                14,
+                46
+            ],
+            "valid_hoi_pair": [
+                11,
+                40
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 40,
+            "ann_obj_id": 46,
+            "counts_train": 1,
+            "counts_test": 0
+        },
+        "234": {
+            "name": "drink instr-wine glass",
+            "text": "a photo of a person drinking with a wine glass",
+            "valid_id": 233,
+            "ann_id": 234,
+            "ann_hoi_pair": [
+                25,
+                46
+            ],
+            "valid_hoi_pair": [
+                20,
+                40
+            ],
+            "valid_rel_id": 20,
+            "ann_rel_id": 25,
+            "valid_obj_id": 40,
+            "ann_obj_id": 46,
+            "counts_train": 56,
+            "counts_test": 30
+        },
+        "235": {
+            "name": "hold obj-wine glass",
+            "text": "a photo of a person holding a wine glass",
+            "valid_id": 234,
+            "ann_id": 235,
+            "ann_hoi_pair": [
+                1,
+                46
+            ],
+            "valid_hoi_pair": [
+                0,
+                40
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 40,
+            "ann_obj_id": 46,
+            "counts_train": 66,
+            "counts_test": 46
+        },
+        "236": {
+            "name": "look obj-wine glass",
+            "text": "a photo of a person looking at a wine glass",
+            "valid_id": 235,
+            "ann_id": 236,
+            "ann_hoi_pair": [
+                6,
+                46
+            ],
+            "valid_hoi_pair": [
+                3,
+                40
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 40,
+            "ann_obj_id": 46,
+            "counts_train": 11,
+            "counts_test": 7
+        },
+        "237": {
+            "name": "carry obj-__background__",
+            "text": "a photo of a person carrying",
+            "valid_id": 236,
+            "ann_id": 237,
+            "ann_hoi_pair": [
+                14,
+                0
+            ],
+            "valid_hoi_pair": [
+                11,
+                80
+            ],
+            "valid_rel_id": 11,
+            "ann_rel_id": 14,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 34,
+            "counts_test": 39
+        },
+        "238": {
+            "name": "catch obj-__background__",
+            "text": "a photo of a person catching",
+            "valid_id": 237,
+            "ann_id": 238,
+            "ann_hoi_pair": [
+                16,
+                0
+            ],
+            "valid_hoi_pair": [
+                13,
+                80
+            ],
+            "valid_rel_id": 13,
+            "ann_rel_id": 16,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 57,
+            "counts_test": 45
+        },
+        "239": {
+            "name": "cut instr-__background__",
+            "text": "a photo of a person cutting with something",
+            "valid_id": 238,
+            "ann_id": 239,
+            "ann_hoi_pair": [
+                17,
+                0
+            ],
+            "valid_hoi_pair": [
+                14,
+                80
+            ],
+            "valid_rel_id": 14,
+            "ann_rel_id": 17,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 53,
+            "counts_test": 39
+        },
+        "240": {
+            "name": "cut obj-__background__",
+            "text": "a photo of a person cutting",
+            "valid_id": 239,
+            "ann_id": 240,
+            "ann_hoi_pair": [
+                18,
+                0
+            ],
+            "valid_hoi_pair": [
+                15,
+                80
+            ],
+            "valid_rel_id": 15,
+            "ann_rel_id": 18,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 68,
+            "counts_test": 66
+        },
+        "241": {
+            "name": "drink instr-__background__",
+            "text": "a photo of a person drinking",
+            "valid_id": 240,
+            "ann_id": 241,
+            "ann_hoi_pair": [
+                25,
+                0
+            ],
+            "valid_hoi_pair": [
+                20,
+                80
+            ],
+            "valid_rel_id": 20,
+            "ann_rel_id": 25,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 8,
+            "counts_test": 4
+        },
+        "242": {
+            "name": "eat instr-__background__",
+            "text": "a photo of a person eating with something",
+            "valid_id": 241,
+            "ann_id": 242,
+            "ann_hoi_pair": [
+                10,
+                0
+            ],
+            "valid_hoi_pair": [
+                7,
+                80
+            ],
+            "valid_rel_id": 7,
+            "ann_rel_id": 10,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 524,
+            "counts_test": 421
+        },
+        "243": {
+            "name": "eat obj-__background__",
+            "text": "a photo of a person eating",
+            "valid_id": 242,
+            "ann_id": 243,
+            "ann_hoi_pair": [
+                9,
+                0
+            ],
+            "valid_hoi_pair": [
+                6,
+                80
+            ],
+            "valid_rel_id": 6,
+            "ann_rel_id": 9,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 274,
+            "counts_test": 187
+        },
+        "244": {
+            "name": "hit instr-__background__",
+            "text": "a photo of a person hitting with something",
+            "valid_id": 243,
+            "ann_id": 244,
+            "ann_hoi_pair": [
+                7,
+                0
+            ],
+            "valid_hoi_pair": [
+                4,
+                80
+            ],
+            "valid_rel_id": 4,
+            "ann_rel_id": 7,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 25,
+            "counts_test": 34
+        },
+        "245": {
+            "name": "hit obj-__background__",
+            "text": "a photo of a person hitting",
+            "valid_id": 244,
+            "ann_id": 245,
+            "ann_hoi_pair": [
+                8,
+                0
+            ],
+            "valid_hoi_pair": [
+                5,
+                80
+            ],
+            "valid_rel_id": 5,
+            "ann_rel_id": 8,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 139,
+            "counts_test": 123
+        },
+        "246": {
+            "name": "hold obj-__background__",
+            "text": "a photo of a person holding",
+            "valid_id": 245,
+            "ann_id": 246,
+            "ann_hoi_pair": [
+                1,
+                0
+            ],
+            "valid_hoi_pair": [
+                0,
+                80
+            ],
+            "valid_rel_id": 0,
+            "ann_rel_id": 1,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 977,
+            "counts_test": 875
+        },
+        "247": {
+            "name": "jump instr-__background__",
+            "text": "a photo of a person jumping",
+            "valid_id": 246,
+            "ann_id": 247,
+            "ann_hoi_pair": [
+                11,
+                0
+            ],
+            "valid_hoi_pair": [
+                8,
+                80
+            ],
+            "valid_rel_id": 8,
+            "ann_rel_id": 11,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 211,
+            "counts_test": 233
+        },
+        "248": {
+            "name": "kick obj-__background__",
+            "text": "a photo of a person kicking",
+            "valid_id": 247,
+            "ann_id": 248,
+            "ann_hoi_pair": [
+                26,
+                0
+            ],
+            "valid_hoi_pair": [
+                21,
+                80
+            ],
+            "valid_rel_id": 21,
+            "ann_rel_id": 26,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 8,
+            "counts_test": 17
+        },
+        "249": {
+            "name": "lay instr-__background__",
+            "text": "a photo of a person laying",
+            "valid_id": 248,
+            "ann_id": 249,
+            "ann_hoi_pair": [
+                12,
+                0
+            ],
+            "valid_hoi_pair": [
+                9,
+                80
+            ],
+            "valid_rel_id": 9,
+            "ann_rel_id": 12,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 188,
+            "counts_test": 157
+        },
+        "250": {
+            "name": "look obj-__background__",
+            "text": "a photo of a person looking at something",
+            "valid_id": 249,
+            "ann_id": 250,
+            "ann_hoi_pair": [
+                6,
+                0
+            ],
+            "valid_hoi_pair": [
+                3,
+                80
+            ],
+            "valid_rel_id": 3,
+            "ann_rel_id": 6,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 698,
+            "counts_test": 595
+        },
+        "251": {
+            "name": "read obj-__background__",
+            "text": "a photo of a person reading",
+            "valid_id": 250,
+            "ann_id": 251,
+            "ann_hoi_pair": [
+                28,
+                0
+            ],
+            "valid_hoi_pair": [
+                22,
+                80
+            ],
+            "valid_rel_id": 22,
+            "ann_rel_id": 28,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 30,
+            "counts_test": 25
+        },
+        "252": {
+            "name": "ride instr-__background__",
+            "text": "a photo of a person riding",
+            "valid_id": 251,
+            "ann_id": 252,
+            "ann_hoi_pair": [
+                4,
+                0
+            ],
+            "valid_hoi_pair": [
+                2,
+                80
+            ],
+            "valid_rel_id": 2,
+            "ann_rel_id": 4,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 43,
+            "counts_test": 51
+        },
+        "253": {
+            "name": "sit instr-__background__",
+            "text": "a photo of a person sitting on",
+            "valid_id": 252,
+            "ann_id": 253,
+            "ann_hoi_pair": [
+                3,
+                0
+            ],
+            "valid_hoi_pair": [
+                1,
+                80
+            ],
+            "valid_rel_id": 1,
+            "ann_rel_id": 3,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 917,
+            "counts_test": 827
+        },
+        "254": {
+            "name": "skateboard instr-__background__",
+            "text": "a photo of a person skateboarding",
+            "valid_id": 253,
+            "ann_id": 254,
+            "ann_hoi_pair": [
+                23,
+                0
+            ],
+            "valid_hoi_pair": [
+                19,
+                80
+            ],
+            "valid_rel_id": 19,
+            "ann_rel_id": 23,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 22,
+            "counts_test": 15
+        },
+        "255": {
+            "name": "ski instr-__background__",
+            "text": "a photo of a person skiing",
+            "valid_id": 254,
+            "ann_id": 255,
+            "ann_hoi_pair": [
+                21,
+                0
+            ],
+            "valid_hoi_pair": [
+                17,
+                80
+            ],
+            "valid_rel_id": 17,
+            "ann_rel_id": 21,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 63,
+            "counts_test": 64
+        },
+        "256": {
+            "name": "snowboard instr-__background__",
+            "text": "a photo of a person snowboarding",
+            "valid_id": 255,
+            "ann_id": 256,
+            "ann_hoi_pair": [
+                29,
+                0
+            ],
+            "valid_hoi_pair": [
+                23,
+                80
+            ],
+            "valid_rel_id": 23,
+            "ann_rel_id": 29,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 21,
+            "counts_test": 16
+        },
+        "257": {
+            "name": "surf instr-__background__",
+            "text": "a photo of a person surfing",
+            "valid_id": 256,
+            "ann_id": 257,
+            "ann_hoi_pair": [
+                22,
+                0
+            ],
+            "valid_hoi_pair": [
+                18,
+                80
+            ],
+            "valid_rel_id": 18,
+            "ann_rel_id": 22,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 13,
+            "counts_test": 22
+        },
+        "258": {
+            "name": "talk_on_phone instr-__background__",
+            "text": "a photo of a person talking on phone",
+            "valid_id": 257,
+            "ann_id": 258,
+            "ann_hoi_pair": [
+                13,
+                0
+            ],
+            "valid_hoi_pair": [
+                10,
+                80
+            ],
+            "valid_rel_id": 10,
+            "ann_rel_id": 13,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 62,
+            "counts_test": 39
+        },
+        "259": {
+            "name": "throw obj-__background__",
+            "text": "a photo of a person throwing",
+            "valid_id": 258,
+            "ann_id": 259,
+            "ann_hoi_pair": [
+                15,
+                0
+            ],
+            "valid_hoi_pair": [
+                12,
+                80
+            ],
+            "valid_rel_id": 12,
+            "ann_rel_id": 15,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 39,
+            "counts_test": 30
+        },
+        "260": {
+            "name": "work_on_computer instr-__background__",
+            "text": "a photo of a person working on computer",
+            "valid_id": 259,
+            "ann_id": 260,
+            "ann_hoi_pair": [
+                20,
+                0
+            ],
+            "valid_hoi_pair": [
+                16,
+                80
+            ],
+            "valid_rel_id": 16,
+            "ann_rel_id": 20,
+            "valid_obj_id": 80,
+            "ann_obj_id": 0,
+            "counts_train": 60,
+            "counts_test": 35
+        }
+    },
+    "pair2hoi": {
+        "(6, 5)": 1,
+        "(18, 53)": 2,
+        "(9, 53)": 3,
+        "(1, 53)": 4,
+        "(6, 53)": 5,
+        "(14, 27)": 6,
+        "(1, 27)": 7,
+        "(6, 27)": 8,
+        "(3, 27)": 9,
+        "(14, 52)": 10,
+        "(18, 52)": 11,
+        "(9, 52)": 12,
+        "(1, 52)": 13,
+        "(6, 52)": 14,
+        "(14, 39)": 15,
+        "(7, 39)": 16,
+        "(1, 39)": 17,
+        "(6, 39)": 18,
+        "(1, 40)": 19,
+        "(6, 40)": 20,
+        "(1, 65)": 21,
+        "(12, 65)": 22,
+        "(3, 65)": 23,
+        "(1, 15)": 24,
+        "(12, 15)": 25,
+        "(6, 15)": 26,
+        "(3, 15)": 27,
+        "(14, 2)": 28,
+        "(1, 2)": 29,
+        "(6, 2)": 30,
+        "(4, 2)": 31,
+        "(3, 2)": 32,
+        "(1, 16)": 33,
+        "(6, 16)": 34,
+        "(1, 9)": 35,
+        "(6, 9)": 36,
+        "(4, 9)": 37,
+        "(14, 84)": 38,
+        "(18, 84)": 39,
+        "(1, 84)": 40,
+        "(6, 84)": 41,
+        "(28, 84)": 42,
+        "(14, 44)": 43,
+        "(25, 44)": 44,
+        "(1, 44)": 45,
+        "(6, 44)": 46,
+        "(18, 51)": 47,
+        "(25, 51)": 48,
+        "(1, 51)": 49,
+        "(6, 51)": 50,
+        "(18, 56)": 51,
+        "(9, 56)": 52,
+        "(1, 56)": 53,
+        "(6, 56)": 54,
+        "(6, 6)": 55,
+        "(4, 6)": 56,
+        "(18, 61)": 57,
+        "(9, 61)": 58,
+        "(1, 61)": 59,
+        "(6, 61)": 60,
+        "(14, 3)": 61,
+        "(6, 3)": 62,
+        "(4, 3)": 63,
+        "(18, 57)": 64,
+        "(9, 57)": 65,
+        "(1, 57)": 66,
+        "(1, 17)": 67,
+        "(6, 17)": 68,
+        "(14, 77)": 69,
+        "(1, 77)": 70,
+        "(6, 77)": 71,
+        "(13, 77)": 72,
+        "(1, 62)": 73,
+        "(12, 62)": 74,
+        "(6, 62)": 75,
+        "(3, 62)": 76,
+        "(14, 85)": 77,
+        "(6, 85)": 78,
+        "(12, 63)": 79,
+        "(3, 63)": 80,
+        "(1, 21)": 81,
+        "(6, 21)": 82,
+        "(14, 47)": 83,
+        "(25, 47)": 84,
+        "(1, 47)": 85,
+        "(6, 47)": 86,
+        "(1, 67)": 87,
+        "(12, 67)": 88,
+        "(6, 67)": 89,
+        "(3, 67)": 90,
+        "(14, 18)": 91,
+        "(1, 18)": 92,
+        "(6, 18)": 93,
+        "(14, 60)": 94,
+        "(18, 60)": 95,
+        "(9, 60)": 96,
+        "(1, 60)": 97,
+        "(6, 60)": 98,
+        "(1, 22)": 99,
+        "(6, 22)": 100,
+        "(4, 22)": 101,
+        "(3, 22)": 102,
+        "(6, 11)": 103,
+        "(17, 48)": 104,
+        "(10, 48)": 105,
+        "(1, 48)": 106,
+        "(6, 48)": 107,
+        "(14, 34)": 108,
+        "(16, 34)": 109,
+        "(1, 34)": 110,
+        "(6, 34)": 111,
+        "(15, 34)": 112,
+        "(6, 25)": 113,
+        "(1, 89)": 114,
+        "(14, 31)": 115,
+        "(1, 31)": 116,
+        "(6, 31)": 117,
+        "(3, 31)": 118,
+        "(1, 19)": 119,
+        "(6, 19)": 120,
+        "(4, 19)": 121,
+        "(3, 19)": 122,
+        "(18, 58)": 123,
+        "(9, 58)": 124,
+        "(1, 58)": 125,
+        "(6, 58)": 126,
+        "(1, 76)": 127,
+        "(6, 76)": 128,
+        "(14, 38)": 129,
+        "(1, 38)": 130,
+        "(6, 38)": 131,
+        "(17, 49)": 132,
+        "(10, 49)": 133,
+        "(1, 49)": 134,
+        "(6, 49)": 135,
+        "(14, 73)": 136,
+        "(18, 73)": 137,
+        "(1, 73)": 138,
+        "(6, 73)": 139,
+        "(20, 73)": 140,
+        "(1, 4)": 141,
+        "(6, 4)": 142,
+        "(4, 4)": 143,
+        "(3, 4)": 144,
+        "(1, 74)": 145,
+        "(6, 74)": 146,
+        "(14, 55)": 147,
+        "(18, 55)": 148,
+        "(9, 55)": 149,
+        "(1, 55)": 150,
+        "(14, 1)": 151,
+        "(18, 1)": 152,
+        "(1, 1)": 153,
+        "(6, 1)": 154,
+        "(18, 59)": 155,
+        "(9, 59)": 156,
+        "(1, 59)": 157,
+        "(6, 59)": 158,
+        "(6, 64)": 159,
+        "(1, 82)": 160,
+        "(6, 82)": 161,
+        "(1, 75)": 162,
+        "(6, 75)": 163,
+        "(18, 54)": 164,
+        "(9, 54)": 165,
+        "(1, 54)": 166,
+        "(6, 54)": 167,
+        "(17, 87)": 168,
+        "(1, 87)": 169,
+        "(6, 87)": 170,
+        "(14, 20)": 171,
+        "(18, 20)": 172,
+        "(1, 20)": 173,
+        "(6, 20)": 174,
+        "(14, 41)": 175,
+        "(18, 41)": 176,
+        "(1, 41)": 177,
+        "(11, 41)": 178,
+        "(6, 41)": 179,
+        "(23, 41)": 180,
+        "(14, 35)": 181,
+        "(1, 35)": 182,
+        "(11, 35)": 183,
+        "(6, 35)": 184,
+        "(21, 35)": 185,
+        "(14, 36)": 186,
+        "(1, 36)": 187,
+        "(11, 36)": 188,
+        "(6, 36)": 189,
+        "(29, 36)": 190,
+        "(10, 50)": 191,
+        "(1, 50)": 192,
+        "(6, 50)": 193,
+        "(14, 37)": 194,
+        "(16, 37)": 195,
+        "(8, 37)": 196,
+        "(1, 37)": 197,
+        "(26, 37)": 198,
+        "(6, 37)": 199,
+        "(15, 37)": 200,
+        "(14, 33)": 201,
+        "(1, 33)": 202,
+        "(6, 33)": 203,
+        "(3, 33)": 204,
+        "(14, 42)": 205,
+        "(1, 42)": 206,
+        "(11, 42)": 207,
+        "(6, 42)": 208,
+        "(22, 42)": 209,
+        "(14, 88)": 210,
+        "(1, 88)": 211,
+        "(14, 43)": 212,
+        "(7, 43)": 213,
+        "(1, 43)": 214,
+        "(6, 43)": 215,
+        "(18, 32)": 216,
+        "(1, 32)": 217,
+        "(6, 32)": 218,
+        "(12, 70)": 219,
+        "(6, 70)": 220,
+        "(3, 70)": 221,
+        "(1, 90)": 222,
+        "(6, 10)": 223,
+        "(6, 7)": 224,
+        "(4, 7)": 225,
+        "(1, 8)": 226,
+        "(6, 8)": 227,
+        "(4, 8)": 228,
+        "(6, 72)": 229,
+        "(14, 28)": 230,
+        "(1, 28)": 231,
+        "(6, 28)": 232,
+        "(14, 46)": 233,
+        "(25, 46)": 234,
+        "(1, 46)": 235,
+        "(6, 46)": 236,
+        "(14, 0)": 237,
+        "(16, 0)": 238,
+        "(17, 0)": 239,
+        "(18, 0)": 240,
+        "(25, 0)": 241,
+        "(10, 0)": 242,
+        "(9, 0)": 243,
+        "(7, 0)": 244,
+        "(8, 0)": 245,
+        "(1, 0)": 246,
+        "(11, 0)": 247,
+        "(26, 0)": 248,
+        "(12, 0)": 249,
+        "(6, 0)": 250,
+        "(28, 0)": 251,
+        "(4, 0)": 252,
+        "(3, 0)": 253,
+        "(23, 0)": 254,
+        "(21, 0)": 255,
+        "(29, 0)": 256,
+        "(22, 0)": 257,
+        "(13, 0)": 258,
+        "(15, 0)": 259,
+        "(20, 0)": 260
+    },
+    "hois_per_obj": {
+        "0": [
+            237,
+            238,
+            239,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246,
+            247,
+            248,
+            249,
+            250,
+            251,
+            252,
+            253,
+            254,
+            255,
+            256,
+            257,
+            258,
+            259,
+            260
+        ],
+        "1": [
+            151,
+            152,
+            153,
+            154
+        ],
+        "2": [
+            28,
+            29,
+            30,
+            31,
+            32
+        ],
+        "3": [
+            61,
+            62,
+            63
+        ],
+        "4": [
+            141,
+            142,
+            143,
+            144
+        ],
+        "5": [
+            1
+        ],
+        "6": [
+            55,
+            56
+        ],
+        "7": [
+            224,
+            225
+        ],
+        "8": [
+            226,
+            227,
+            228
+        ],
+        "9": [
+            35,
+            36,
+            37
+        ],
+        "10": [
+            223
+        ],
+        "11": [
+            103
+        ],
+        "13": [],
+        "14": [],
+        "15": [
+            24,
+            25,
+            26,
+            27
+        ],
+        "16": [
+            33,
+            34
+        ],
+        "17": [
+            67,
+            68
+        ],
+        "18": [
+            91,
+            92,
+            93
+        ],
+        "19": [
+            119,
+            120,
+            121,
+            122
+        ],
+        "20": [
+            171,
+            172,
+            173,
+            174
+        ],
+        "21": [
+            81,
+            82
+        ],
+        "22": [
+            99,
+            100,
+            101,
+            102
+        ],
+        "23": [],
+        "24": [],
+        "25": [
+            113
+        ],
+        "27": [
+            6,
+            7,
+            8,
+            9
+        ],
+        "28": [
+            230,
+            231,
+            232
+        ],
+        "31": [
+            115,
+            116,
+            117,
+            118
+        ],
+        "32": [
+            216,
+            217,
+            218
+        ],
+        "33": [
+            201,
+            202,
+            203,
+            204
+        ],
+        "34": [
+            108,
+            109,
+            110,
+            111,
+            112
+        ],
+        "35": [
+            181,
+            182,
+            183,
+            184,
+            185
+        ],
+        "36": [
+            186,
+            187,
+            188,
+            189,
+            190
+        ],
+        "37": [
+            194,
+            195,
+            196,
+            197,
+            198,
+            199,
+            200
+        ],
+        "38": [
+            129,
+            130,
+            131
+        ],
+        "39": [
+            15,
+            16,
+            17,
+            18
+        ],
+        "40": [
+            19,
+            20
+        ],
+        "41": [
+            175,
+            176,
+            177,
+            178,
+            179,
+            180
+        ],
+        "42": [
+            205,
+            206,
+            207,
+            208,
+            209
+        ],
+        "43": [
+            212,
+            213,
+            214,
+            215
+        ],
+        "44": [
+            43,
+            44,
+            45,
+            46
+        ],
+        "46": [
+            233,
+            234,
+            235,
+            236
+        ],
+        "47": [
+            83,
+            84,
+            85,
+            86
+        ],
+        "48": [
+            104,
+            105,
+            106,
+            107
+        ],
+        "49": [
+            132,
+            133,
+            134,
+            135
+        ],
+        "50": [
+            191,
+            192,
+            193
+        ],
+        "51": [
+            47,
+            48,
+            49,
+            50
+        ],
+        "52": [
+            10,
+            11,
+            12,
+            13,
+            14
+        ],
+        "53": [
+            2,
+            3,
+            4,
+            5
+        ],
+        "54": [
+            164,
+            165,
+            166,
+            167
+        ],
+        "55": [
+            147,
+            148,
+            149,
+            150
+        ],
+        "56": [
+            51,
+            52,
+            53,
+            54
+        ],
+        "57": [
+            64,
+            65,
+            66
+        ],
+        "58": [
+            123,
+            124,
+            125,
+            126
+        ],
+        "59": [
+            155,
+            156,
+            157,
+            158
+        ],
+        "60": [
+            94,
+            95,
+            96,
+            97,
+            98
+        ],
+        "61": [
+            57,
+            58,
+            59,
+            60
+        ],
+        "62": [
+            73,
+            74,
+            75,
+            76
+        ],
+        "63": [
+            79,
+            80
+        ],
+        "64": [
+            159
+        ],
+        "65": [
+            21,
+            22,
+            23
+        ],
+        "67": [
+            87,
+            88,
+            89,
+            90
+        ],
+        "70": [
+            219,
+            220,
+            221
+        ],
+        "72": [
+            229
+        ],
+        "73": [
+            136,
+            137,
+            138,
+            139,
+            140
+        ],
+        "74": [
+            145,
+            146
+        ],
+        "75": [
+            162,
+            163
+        ],
+        "76": [
+            127,
+            128
+        ],
+        "77": [
+            69,
+            70,
+            71,
+            72
+        ],
+        "78": [],
+        "79": [],
+        "80": [],
+        "81": [],
+        "82": [
+            160,
+            161
+        ],
+        "84": [
+            38,
+            39,
+            40,
+            41,
+            42
+        ],
+        "85": [
+            77,
+            78
+        ],
+        "86": [],
+        "87": [
+            168,
+            169,
+            170
+        ],
+        "88": [
+            210,
+            211
+        ],
+        "89": [
+            114
+        ],
+        "90": [
+            222
+        ]
+    },
+    "hois_per_rel": {
+        "1": [
+            4,
+            7,
+            13,
+            17,
+            19,
+            21,
+            24,
+            29,
+            33,
+            35,
+            40,
+            45,
+            49,
+            53,
+            59,
+            66,
+            67,
+            70,
+            73,
+            81,
+            85,
+            87,
+            92,
+            97,
+            99,
+            106,
+            110,
+            114,
+            116,
+            119,
+            125,
+            127,
+            130,
+            134,
+            138,
+            141,
+            145,
+            150,
+            153,
+            157,
+            160,
+            162,
+            166,
+            169,
+            173,
+            177,
+            182,
+            187,
+            192,
+            197,
+            202,
+            206,
+            211,
+            214,
+            217,
+            222,
+            226,
+            231,
+            235,
+            246
+        ],
+        "3": [
+            9,
+            23,
+            27,
+            32,
+            76,
+            80,
+            90,
+            102,
+            118,
+            122,
+            144,
+            204,
+            221,
+            253
+        ],
+        "4": [
+            31,
+            37,
+            56,
+            63,
+            101,
+            121,
+            143,
+            225,
+            228,
+            252
+        ],
+        "6": [
+            1,
+            5,
+            8,
+            14,
+            18,
+            20,
+            26,
+            30,
+            34,
+            36,
+            41,
+            46,
+            50,
+            54,
+            55,
+            60,
+            62,
+            68,
+            71,
+            75,
+            78,
+            82,
+            86,
+            89,
+            93,
+            98,
+            100,
+            103,
+            107,
+            111,
+            113,
+            117,
+            120,
+            126,
+            128,
+            131,
+            135,
+            139,
+            142,
+            146,
+            154,
+            158,
+            159,
+            161,
+            163,
+            167,
+            170,
+            174,
+            179,
+            184,
+            189,
+            193,
+            199,
+            203,
+            208,
+            215,
+            218,
+            220,
+            223,
+            224,
+            227,
+            229,
+            232,
+            236,
+            250
+        ],
+        "7": [
+            16,
+            213,
+            244
+        ],
+        "8": [
+            196,
+            245
+        ],
+        "9": [
+            3,
+            12,
+            52,
+            58,
+            65,
+            96,
+            124,
+            149,
+            156,
+            165,
+            243
+        ],
+        "10": [
+            105,
+            133,
+            191,
+            242
+        ],
+        "11": [
+            178,
+            183,
+            188,
+            207,
+            247
+        ],
+        "12": [
+            22,
+            25,
+            74,
+            79,
+            88,
+            219,
+            249
+        ],
+        "13": [
+            72,
+            258
+        ],
+        "14": [
+            6,
+            10,
+            15,
+            28,
+            38,
+            43,
+            61,
+            69,
+            77,
+            83,
+            91,
+            94,
+            108,
+            115,
+            129,
+            136,
+            147,
+            151,
+            171,
+            175,
+            181,
+            186,
+            194,
+            201,
+            205,
+            210,
+            212,
+            230,
+            233,
+            237
+        ],
+        "15": [
+            112,
+            200,
+            259
+        ],
+        "16": [
+            109,
+            195,
+            238
+        ],
+        "17": [
+            104,
+            132,
+            168,
+            239
+        ],
+        "18": [
+            2,
+            11,
+            39,
+            47,
+            51,
+            57,
+            64,
+            95,
+            123,
+            137,
+            148,
+            152,
+            155,
+            164,
+            172,
+            176,
+            216,
+            240
+        ],
+        "20": [
+            140,
+            260
+        ],
+        "21": [
+            185,
+            255
+        ],
+        "22": [
+            209,
+            257
+        ],
+        "23": [
+            180,
+            254
+        ],
+        "25": [
+            44,
+            48,
+            84,
+            234,
+            241
+        ],
+        "26": [
+            198,
+            248
+        ],
+        "28": [
+            42,
+            251
+        ],
+        "29": [
+            190,
+            256
+        ]
+    },
+    "objs_per_rel": {
+        "1": [
+            0,
+            1,
+            2,
+            4,
+            8,
+            9,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            27,
+            28,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            65,
+            67,
+            73,
+            74,
+            75,
+            76,
+            77,
+            82,
+            84,
+            87,
+            88,
+            89,
+            90
+        ],
+        "3": [
+            0,
+            2,
+            4,
+            15,
+            19,
+            22,
+            27,
+            31,
+            33,
+            62,
+            63,
+            65,
+            67,
+            70
+        ],
+        "4": [
+            0,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            19,
+            22
+        ],
+        "6": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            25,
+            27,
+            28,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            56,
+            58,
+            59,
+            60,
+            61,
+            62,
+            64,
+            67,
+            70,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            82,
+            84,
+            85,
+            87
+        ],
+        "7": [
+            0,
+            39,
+            43
+        ],
+        "8": [
+            0,
+            37
+        ],
+        "9": [
+            0,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61
+        ],
+        "10": [
+            0,
+            48,
+            49,
+            50
+        ],
+        "11": [
+            0,
+            35,
+            36,
+            41,
+            42
+        ],
+        "12": [
+            0,
+            15,
+            62,
+            63,
+            65,
+            67,
+            70
+        ],
+        "13": [
+            0,
+            77
+        ],
+        "14": [
+            0,
+            1,
+            2,
+            3,
+            18,
+            20,
+            27,
+            28,
+            31,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            41,
+            42,
+            43,
+            44,
+            46,
+            47,
+            52,
+            55,
+            60,
+            73,
+            77,
+            84,
+            85,
+            88
+        ],
+        "15": [
+            0,
+            34,
+            37
+        ],
+        "16": [
+            0,
+            34,
+            37
+        ],
+        "17": [
+            0,
+            48,
+            49,
+            87
+        ],
+        "18": [
+            0,
+            1,
+            20,
+            32,
+            41,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            73,
+            84
+        ],
+        "20": [
+            0,
+            73
+        ],
+        "21": [
+            0,
+            35
+        ],
+        "22": [
+            0,
+            42
+        ],
+        "23": [
+            0,
+            41
+        ],
+        "25": [
+            0,
+            44,
+            46,
+            47,
+            51
+        ],
+        "26": [
+            0,
+            37
+        ],
+        "28": [
+            0,
+            84
+        ],
+        "29": [
+            0,
+            36
+        ]
+    },
+    "rels_per_obj": {
+        "0": [
+            1,
+            3,
+            4,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            20,
+            21,
+            22,
+            23,
+            25,
+            26,
+            28,
+            29
+        ],
+        "1": [
+            1,
+            6,
+            14,
+            18
+        ],
+        "2": [
+            1,
+            3,
+            4,
+            6,
+            14
+        ],
+        "3": [
+            4,
+            6,
+            14
+        ],
+        "4": [
+            1,
+            3,
+            4,
+            6
+        ],
+        "5": [
+            6
+        ],
+        "6": [
+            4,
+            6
+        ],
+        "7": [
+            4,
+            6
+        ],
+        "8": [
+            1,
+            4,
+            6
+        ],
+        "9": [
+            1,
+            4,
+            6
+        ],
+        "10": [
+            6
+        ],
+        "11": [
+            6
+        ],
+        "13": [],
+        "14": [],
+        "15": [
+            1,
+            3,
+            6,
+            12
+        ],
+        "16": [
+            1,
+            6
+        ],
+        "17": [
+            1,
+            6
+        ],
+        "18": [
+            1,
+            6,
+            14
+        ],
+        "19": [
+            1,
+            3,
+            4,
+            6
+        ],
+        "20": [
+            1,
+            6,
+            14,
+            18
+        ],
+        "21": [
+            1,
+            6
+        ],
+        "22": [
+            1,
+            3,
+            4,
+            6
+        ],
+        "23": [],
+        "24": [],
+        "25": [
+            6
+        ],
+        "27": [
+            1,
+            3,
+            6,
+            14
+        ],
+        "28": [
+            1,
+            6,
+            14
+        ],
+        "31": [
+            1,
+            3,
+            6,
+            14
+        ],
+        "32": [
+            1,
+            6,
+            18
+        ],
+        "33": [
+            1,
+            3,
+            6,
+            14
+        ],
+        "34": [
+            1,
+            6,
+            14,
+            15,
+            16
+        ],
+        "35": [
+            1,
+            6,
+            11,
+            14,
+            21
+        ],
+        "36": [
+            1,
+            6,
+            11,
+            14,
+            29
+        ],
+        "37": [
+            1,
+            6,
+            8,
+            14,
+            15,
+            16,
+            26
+        ],
+        "38": [
+            1,
+            6,
+            14
+        ],
+        "39": [
+            1,
+            6,
+            7,
+            14
+        ],
+        "40": [
+            1,
+            6
+        ],
+        "41": [
+            1,
+            6,
+            11,
+            14,
+            18,
+            23
+        ],
+        "42": [
+            1,
+            6,
+            11,
+            14,
+            22
+        ],
+        "43": [
+            1,
+            6,
+            7,
+            14
+        ],
+        "44": [
+            1,
+            6,
+            14,
+            25
+        ],
+        "46": [
+            1,
+            6,
+            14,
+            25
+        ],
+        "47": [
+            1,
+            6,
+            14,
+            25
+        ],
+        "48": [
+            1,
+            6,
+            10,
+            17
+        ],
+        "49": [
+            1,
+            6,
+            10,
+            17
+        ],
+        "50": [
+            1,
+            6,
+            10
+        ],
+        "51": [
+            1,
+            6,
+            18,
+            25
+        ],
+        "52": [
+            1,
+            6,
+            9,
+            14,
+            18
+        ],
+        "53": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "54": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "55": [
+            1,
+            9,
+            14,
+            18
+        ],
+        "56": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "57": [
+            1,
+            9,
+            18
+        ],
+        "58": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "59": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "60": [
+            1,
+            6,
+            9,
+            14,
+            18
+        ],
+        "61": [
+            1,
+            6,
+            9,
+            18
+        ],
+        "62": [
+            1,
+            3,
+            6,
+            12
+        ],
+        "63": [
+            3,
+            12
+        ],
+        "64": [
+            6
+        ],
+        "65": [
+            1,
+            3,
+            12
+        ],
+        "67": [
+            1,
+            3,
+            6,
+            12
+        ],
+        "70": [
+            3,
+            6,
+            12
+        ],
+        "72": [
+            6
+        ],
+        "73": [
+            1,
+            6,
+            14,
+            18,
+            20
+        ],
+        "74": [
+            1,
+            6
+        ],
+        "75": [
+            1,
+            6
+        ],
+        "76": [
+            1,
+            6
+        ],
+        "77": [
+            1,
+            6,
+            13,
+            14
+        ],
+        "78": [],
+        "79": [],
+        "80": [],
+        "81": [],
+        "82": [
+            1,
+            6
+        ],
+        "84": [
+            1,
+            6,
+            14,
+            18,
+            28
+        ],
+        "85": [
+            6,
+            14
+        ],
+        "86": [],
+        "87": [
+            1,
+            6,
+            17
+        ],
+        "88": [
+            1,
+            14
+        ],
+        "89": [
+            1
+        ],
+        "90": [
+            1
+        ]
+    }
+}

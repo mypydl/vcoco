@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "name": "hold obj"
+    },
+    {
+        "id": 3,
+        "name": "sit instr"
+    },
+    {
+        "id": 4,
+        "name": "ride instr"
+    },
+    {
+        "id": 6,
+        "name": "look obj"
+    },
+    {
+        "id": 7,
+        "name": "hit instr"
+    },
+    {
+        "id": 8,
+        "name": "hit obj"
+    },
+    {
+        "id": 9,
+        "name": "eat obj"
+    },
+    {
+        "id": 10,
+        "name": "eat instr"
+    },
+    {
+        "id": 11,
+        "name": "jump instr"
+    },
+    {
+        "id": 12,
+        "name": "lay instr"
+    },
+    {
+        "id": 13,
+        "name": "talk_on_phone instr"
+    },
+    {
+        "id": 14,
+        "name": "carry obj"
+    },
+    {
+        "id": 15,
+        "name": "throw obj"
+    },
+    {
+        "id": 16,
+        "name": "catch obj"
+    },
+    {
+        "id": 17,
+        "name": "cut instr"
+    },
+    {
+        "id": 18,
+        "name": "cut obj"
+    },
+    {
+        "id": 20,
+        "name": "work_on_computer instr"
+    },
+    {
+        "id": 21,
+        "name": "ski instr"
+    },
+    {
+        "id": 22,
+        "name": "surf instr"
+    },
+    {
+        "id": 23,
+        "name": "skateboard instr"
+    },
+    {
+        "id": 25,
+        "name": "drink instr"
+    },
+    {
+        "id": 26,
+        "name": "kick obj"
+    },
+    {
+        "id": 28,
+        "name": "read obj"
+    },
+    {
+        "id": 29,
+        "name": "snowboard instr"
+    }
+]
